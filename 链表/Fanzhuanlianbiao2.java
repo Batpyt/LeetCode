@@ -9,7 +9,7 @@ package 链表;
 /*
  * 遍历法
  */
-public class Fanzhuanlianbiao {
+public class Fanzhuanlianbiao2 {
 	public ListNode reverseList(ListNode head) {
         ListNode next = null;
         ListNode pre = null;
