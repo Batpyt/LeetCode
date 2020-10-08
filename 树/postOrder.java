@@ -2,8 +2,7 @@ package 树;
 
 import javafx.geometry.Pos;
 
-import java.util.Deque;
-import java.util.LinkedList;
+import java.util.*;
 
 //后续遍历，左-右-根
 public class postOrder {
@@ -24,6 +23,7 @@ public class postOrder {
         //Preorder(node[0]);
     }
 
+    List<Integer> res;
     public static void Postorder(TreeNode treeNode) {
         if(treeNode == null) return;
         else {
