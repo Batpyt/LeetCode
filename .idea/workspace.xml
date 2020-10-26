@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="接雨水">
-      <change afterPath="$PROJECT_DIR$/排序/RankTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试算法题/SmallerthanCurrent.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="数组中比当前数小的个数">
+      <change afterPath="$PROJECT_DIR$/树/IsSubTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/树/ListinTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +154,7 @@
       <workItem from="1602486184102" duration="1273000" />
       <workItem from="1603097776447" duration="6294000" />
       <workItem from="1603351686592" duration="14374000" />
-      <workItem from="1603677418871" duration="2948000" />
+      <workItem from="1603677418871" duration="8208000" />
     </task>
     <task id="LOCAL-00001" summary="重排链表">
       <created>1603174584339</created>
@@ -268,7 +268,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603447131681</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="投票排名">
+      <created>1603680505253</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1603680505253</updated>
+    </task>
+    <task id="LOCAL-00018" summary="数组中比当前数小的个数">
+      <created>1603680528896</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1603680528896</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +314,9 @@
     <MESSAGE value="最近公共祖先" />
     <MESSAGE value="描述前一段字符" />
     <MESSAGE value="接雨水" />
-    <option name="LAST_COMMIT_MESSAGE" value="接雨水" />
+    <MESSAGE value="投票排名" />
+    <MESSAGE value="数组中比当前数小的个数" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组中比当前数小的个数" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1297" height="221" key="GridCell.Tab.0.bottom" timestamp="1603679660978">
@@ -339,10 +355,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="3" y="180" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603675530051" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603447137308">
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603680537969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603447137308" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603680537969" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603422934958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
