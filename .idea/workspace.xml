@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="汉明距离">
-      <change afterPath="$PROJECT_DIR$/不知名类型/Jiaoji2.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="两数组的交集">
+      <change afterPath="$PROJECT_DIR$/动态规划/LIS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Jiaoji2">
+  <component name="RunManager" selected="Application.LIS">
     <configuration name="HammingDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="不知名类型.HammingDistance" />
       <module name="Code" />
@@ -115,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Jieyushui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="动态规划.Jieyushui" />
+    <configuration name="LIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="动态规划.LIS" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LIS" />
         <item itemvalue="Application.Jiaoji2" />
         <item itemvalue="Application.Jiaoji" />
         <item itemvalue="Application.HammingDistance" />
         <item itemvalue="Application.IslandZhouchang" />
-        <item itemvalue="Application.Jieyushui" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +153,8 @@
       <workItem from="1602486184102" duration="1273000" />
       <workItem from="1603097776447" duration="6294000" />
       <workItem from="1603351686592" duration="12821000" />
-      <workItem from="1604279023099" duration="5019000" />
+      <workItem from="1604279023099" duration="6449000" />
+      <workItem from="1604296841272" duration="3614000" />
     </task>
     <task id="LOCAL-00001" summary="重排链表">
       <created>1603174584339</created>
@@ -281,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604282242824</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="两数组的交集">
+      <created>1604286538407</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1604286538407</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,49 +322,50 @@
     <MESSAGE value="描述前一段字符" />
     <MESSAGE value="岛屿的周长" />
     <MESSAGE value="汉明距离" />
-    <option name="LAST_COMMIT_MESSAGE" value="汉明距离" />
+    <MESSAGE value="两数组的交集" />
+    <option name="LAST_COMMIT_MESSAGE" value="两数组的交集" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1361" height="165" key="GridCell.Tab.0.bottom" timestamp="1604286043843">
+    <state width="1361" height="303" key="GridCell.Tab.0.bottom" timestamp="1604300727781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1361" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604286043843" />
-    <state width="1361" height="165" key="GridCell.Tab.0.center" timestamp="1604286043843">
+    <state width="1361" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604300727781" />
+    <state width="1361" height="303" key="GridCell.Tab.0.center" timestamp="1604300727781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1361" height="165" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604286043843" />
-    <state width="1361" height="165" key="GridCell.Tab.0.left" timestamp="1604286043843">
+    <state width="1361" height="303" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604300727781" />
+    <state width="1361" height="303" key="GridCell.Tab.0.left" timestamp="1604300727781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1361" height="165" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604286043843" />
-    <state width="1361" height="165" key="GridCell.Tab.0.right" timestamp="1604286043843">
+    <state width="1361" height="303" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604300727781" />
+    <state width="1361" height="303" key="GridCell.Tab.0.right" timestamp="1604300727781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1361" height="165" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604286043843" />
-    <state width="1360" height="303" key="GridCell.Tab.1.bottom" timestamp="1604278660719">
+    <state width="1361" height="303" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604300727781" />
+    <state width="1361" height="303" key="GridCell.Tab.1.bottom" timestamp="1604300727782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1360" height="303" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604278660719" />
-    <state width="1360" height="303" key="GridCell.Tab.1.center" timestamp="1604278660719">
+    <state width="1361" height="303" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604300727782" />
+    <state width="1361" height="303" key="GridCell.Tab.1.center" timestamp="1604300727782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1360" height="303" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604278660719" />
-    <state width="1360" height="303" key="GridCell.Tab.1.left" timestamp="1604278660719">
+    <state width="1361" height="303" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604300727782" />
+    <state width="1361" height="303" key="GridCell.Tab.1.left" timestamp="1604300727782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1360" height="303" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604278660719" />
-    <state width="1360" height="303" key="GridCell.Tab.1.right" timestamp="1604278660719">
+    <state width="1361" height="303" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604300727782" />
+    <state width="1361" height="303" key="GridCell.Tab.1.right" timestamp="1604300727782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1360" height="303" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604278660719" />
-    <state x="3" y="180" key="SettingsEditor" timestamp="1603446159622">
+    <state width="1361" height="303" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604300727782" />
+    <state x="3" y="180" key="SettingsEditor" timestamp="1604297062221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="3" y="180" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603446159622" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604282245795">
+    <state x="3" y="180" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604297062221" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604286539989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604282245795" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604286539989" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604279029613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
