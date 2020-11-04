@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="使数组唯一的最小增量">
-      <change afterPath="$PROJECT_DIR$/栈/CheckStack.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="验证栈序列">
+      <change afterPath="$PROJECT_DIR$/不知名类型/InsertionPart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.CheckStack">
+  <component name="RunManager" selected="Application.InsertionPart">
     <configuration name="CheckStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="栈.CheckStack" />
       <module name="Code" />
@@ -89,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMoveforUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="排序.MinMoveforUnique" />
+    <configuration name="InsertionPart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="不知名类型.InsertionPart" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="排序.*" />
+          <option name="PATTERN" value="不知名类型.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MountainArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="排序.MountainArray" />
+    <configuration name="MinMoveforUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.MinMoveforUnique" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertionPart" />
         <item itemvalue="Application.CheckStack" />
         <item itemvalue="Application.MinMoveforUnique" />
         <item itemvalue="Application.DeleteDecrease" />
         <item itemvalue="Application.StringMatch" />
-        <item itemvalue="Application.MountainArray" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +154,7 @@
       <workItem from="1603097776447" duration="6294000" />
       <workItem from="1603351686592" duration="12821000" />
       <workItem from="1604279023099" duration="6449000" />
-      <workItem from="1604296841272" duration="18386000" />
+      <workItem from="1604296841272" duration="25817000" />
     </task>
     <task id="LOCAL-00001" summary="重排链表">
       <created>1603174584339</created>
@@ -338,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604453778730</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="验证栈序列">
+      <created>1604455147731</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1604455147731</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,25 +386,26 @@
     <MESSAGE value="增减字符串匹配" />
     <MESSAGE value="删除非递增序列" />
     <MESSAGE value="使数组唯一的最小增量" />
-    <option name="LAST_COMMIT_MESSAGE" value="使数组唯一的最小增量" />
+    <MESSAGE value="验证栈序列" />
+    <option name="LAST_COMMIT_MESSAGE" value="验证栈序列" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1331" height="199" key="GridCell.Tab.0.bottom" timestamp="1604454653994">
+    <state width="1331" height="199" key="GridCell.Tab.0.bottom" timestamp="1604470140974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1331" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604454653994" />
-    <state width="1331" height="199" key="GridCell.Tab.0.center" timestamp="1604454653993">
+    <state width="1331" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604470140974" />
+    <state width="1331" height="199" key="GridCell.Tab.0.center" timestamp="1604470140974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1331" height="199" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604454653993" />
-    <state width="1331" height="199" key="GridCell.Tab.0.left" timestamp="1604454653993">
+    <state width="1331" height="199" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604470140974" />
+    <state width="1331" height="199" key="GridCell.Tab.0.left" timestamp="1604470140974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1331" height="199" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604454653993" />
-    <state width="1331" height="199" key="GridCell.Tab.0.right" timestamp="1604454653994">
+    <state width="1331" height="199" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604470140974" />
+    <state width="1331" height="199" key="GridCell.Tab.0.right" timestamp="1604470140974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1331" height="199" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604454653994" />
+    <state width="1331" height="199" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604470140974" />
     <state width="1331" height="303" key="GridCell.Tab.1.bottom" timestamp="1604453659504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -418,10 +426,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="3" y="180" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604297062221" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604453780639">
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604455149456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604453780639" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604455149456" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604279029613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
