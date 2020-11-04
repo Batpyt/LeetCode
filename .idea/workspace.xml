@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="数组山脉">
-      <change afterPath="$PROJECT_DIR$/排序/StringMatch.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="增减字符串匹配">
+      <change afterPath="$PROJECT_DIR$/排序/DeleteDecrease.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,13 +62,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.StringMatch">
-    <configuration name="Envelopes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="动态规划.Envelopes" />
+  <component name="RunManager" selected="Application.DeleteDecrease">
+    <configuration name="DeleteDecrease" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.DeleteDecrease" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="动态规划.*" />
+          <option name="PATTERN" value="排序.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="动态规划.LIS" />
+    <configuration name="Envelopes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="动态规划.Envelopes" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteDecrease" />
         <item itemvalue="Application.StringMatch" />
         <item itemvalue="Application.MountainArray" />
         <item itemvalue="Application.isSquare" />
         <item itemvalue="Application.Envelopes" />
-        <item itemvalue="Application.LIS" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +154,7 @@
       <workItem from="1603097776447" duration="6294000" />
       <workItem from="1603351686592" duration="12821000" />
       <workItem from="1604279023099" duration="6449000" />
-      <workItem from="1604296841272" duration="13962000" />
+      <workItem from="1604296841272" duration="16008000" />
     </task>
     <task id="LOCAL-00001" summary="重排链表">
       <created>1603174584339</created>
@@ -317,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604369507191</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="增减字符串匹配">
+      <created>1604393181678</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1604393181678</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,25 +362,26 @@
     <MESSAGE value="套娃信封问题" />
     <MESSAGE value="有效平方数" />
     <MESSAGE value="数组山脉" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组山脉" />
+    <MESSAGE value="增减字符串匹配" />
+    <option name="LAST_COMMIT_MESSAGE" value="增减字符串匹配" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1331" height="199" key="GridCell.Tab.0.bottom" timestamp="1604393055056">
+    <state width="1331" height="199" key="GridCell.Tab.0.bottom" timestamp="1604395150421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1331" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604393055056" />
-    <state width="1331" height="199" key="GridCell.Tab.0.center" timestamp="1604393055056">
+    <state width="1331" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604395150421" />
+    <state width="1331" height="199" key="GridCell.Tab.0.center" timestamp="1604395150421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1331" height="199" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604393055056" />
-    <state width="1331" height="199" key="GridCell.Tab.0.left" timestamp="1604393055056">
+    <state width="1331" height="199" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604395150421" />
+    <state width="1331" height="199" key="GridCell.Tab.0.left" timestamp="1604395150421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1331" height="199" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604393055056" />
-    <state width="1331" height="199" key="GridCell.Tab.0.right" timestamp="1604393055056">
+    <state width="1331" height="199" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604395150421" />
+    <state width="1331" height="199" key="GridCell.Tab.0.right" timestamp="1604395150421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1331" height="199" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604393055056" />
+    <state width="1331" height="199" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604395150421" />
     <state width="1331" height="303" key="GridCell.Tab.1.bottom" timestamp="1604368164930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -394,10 +402,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="3" y="180" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604297062221" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604369508613">
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604393186576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604369508613" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604393186576" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604279029613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
