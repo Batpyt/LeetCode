@@ -55,4 +55,25 @@ public class LevelorderBottom {
         }
         return res;
     }
+
+    //另一种写法，更简洁
+    public List<List<Integer>> levelOrderBottom2(TreeNode root) {
+        Queue<TreeNode> queue = new LinkedList<>();
+        LinkedList<List<Integer>> res = new LinkedList<>();
+
+        if(root != null) queue.add(root);
+
+        while(!queue.isEmpty()) {
+            List<Integer> l = new LinkedList<>();
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                TreeNode node = queue.poll();
+                l.add(node.val);
+                if(node.left != null) queue.add(node.left);
+                if(node.right != null) queue.add(node.right);
+            }
+            res.addFirst(l);
+        }
+        return res;
+    }
 }
