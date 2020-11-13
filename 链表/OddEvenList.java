@@ -31,15 +31,34 @@ public class OddEvenList {
         ListNode even = head.next;
         //遍历链表
         while(even != null && even.next != null) {
-            //even.next就是下一个奇数位置节点，将odd指向他的next
+            //even.next就是下一个奇数位置节点，将odd.next指向他的next
             odd.next = even.next;
+            //将odd指向下一个奇数位
             odd = odd.next;
 
-            //odd已经指向下一个奇数位置，所以他的下一个是下一个偶数位置，将even指向他的next
+            //odd已经指向下一个奇数位置，所以他的下一个是下一个偶数位置，将even.next指向他的next
             even.next = odd.next;
+            //even指向下一个偶数位
             even = even.next;
         }
         //将两个链表接到一起
+        odd.next = evenhead;
+        return head;
+    }
+
+    public ListNode oddEvenList2(ListNode head) {
+        if(head == null || head.next == null) return head;
+        ListNode odd = head;
+        ListNode even = head.next;
+        ListNode evenhead = even;
+
+        while(even != null && even.next != null) {
+            odd.next = even.next;
+            odd = odd.next;
+
+            even.next = odd.next;
+            even = even.next;
+        }
         odd.next = evenhead;
         return head;
     }
