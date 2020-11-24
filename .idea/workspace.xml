@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="插入区间">
-      <change afterPath="$PROJECT_DIR$/不知名类型/Part.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/树/TreeIterator.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="最少的引爆气球/和时间序列合并相似">
+      <change afterPath="$PROJECT_DIR$/动态规划/EraseOverlap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.InsertionPart">
+  <component name="RunManager" selected="Application.EraseOverlap">
     <configuration name="CheckStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="栈.CheckStack" />
       <module name="Code" />
@@ -77,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteDecrease" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="排序.DeleteDecrease" />
+    <configuration name="EraseOverlap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="动态规划.EraseOverlap" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="排序.*" />
+          <option name="PATTERN" value="动态规划.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,6 +102,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinArrowShots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="动态规划.MinArrowShots" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="动态规划.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinMoveforUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="排序.MinMoveforUnique" />
       <module name="Code" />
@@ -116,26 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="排序.StringMatch" />
-      <module name="Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EraseOverlap" />
+        <item itemvalue="Application.MinArrowShots" />
         <item itemvalue="Application.InsertionPart" />
         <item itemvalue="Application.CheckStack" />
         <item itemvalue="Application.MinMoveforUnique" />
-        <item itemvalue="Application.DeleteDecrease" />
-        <item itemvalue="Application.StringMatch" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604476003817</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="最少的引爆气球/和时间序列合并相似">
+      <created>1606097018858</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1606097018858</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,25 +402,26 @@
     <MESSAGE value="使数组唯一的最小增量" />
     <MESSAGE value="验证栈序列" />
     <MESSAGE value="插入区间" />
-    <option name="LAST_COMMIT_MESSAGE" value="插入区间" />
+    <MESSAGE value="最少的引爆气球/和时间序列合并相似" />
+    <option name="LAST_COMMIT_MESSAGE" value="最少的引爆气球/和时间序列合并相似" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1331" height="199" key="GridCell.Tab.0.bottom" timestamp="1604470140974">
+    <state width="1229" height="217" key="GridCell.Tab.0.bottom" timestamp="1606098577085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1331" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604470140974" />
-    <state width="1331" height="199" key="GridCell.Tab.0.center" timestamp="1604470140974">
+    <state width="1229" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606098577085" />
+    <state width="1229" height="217" key="GridCell.Tab.0.center" timestamp="1606098577085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1331" height="199" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604470140974" />
-    <state width="1331" height="199" key="GridCell.Tab.0.left" timestamp="1604470140974">
+    <state width="1229" height="217" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606098577085" />
+    <state width="1229" height="217" key="GridCell.Tab.0.left" timestamp="1606098577084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1331" height="199" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604470140974" />
-    <state width="1331" height="199" key="GridCell.Tab.0.right" timestamp="1604470140974">
+    <state width="1229" height="217" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606098577084" />
+    <state width="1229" height="217" key="GridCell.Tab.0.right" timestamp="1606098577085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1331" height="199" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604470140974" />
+    <state width="1229" height="217" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606098577085" />
     <state width="1331" height="303" key="GridCell.Tab.1.bottom" timestamp="1604453659504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -447,9 +454,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="588" y="132" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1604042356167" />
-    <state x="889" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1604042401832">
+    <state x="889" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1606096851798">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="889" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604042401832" />
+    <state x="889" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606096851798" />
   </component>
 </project>
