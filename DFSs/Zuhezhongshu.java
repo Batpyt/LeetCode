@@ -1,4 +1,4 @@
-package DFS;
+package DFSs;
 import java.util.*;
 /*
 给定一个无重复元素的数组candidate和一个目标数target，找出candidates中所有可以使数字和为target的组合。
