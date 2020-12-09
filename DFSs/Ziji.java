@@ -1,4 +1,4 @@
-package DFS;
+package DFSs;
 import java.util.*;
 /*
 给定一组不含重复元素    的整数数组nums，返回该数组所有可能的子集（幂集）。
