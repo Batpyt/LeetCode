@@ -9,7 +9,7 @@ import java.util.*;
 
 public class TimeMerge {
     public static void main(String[] args) {
-        int[][] time = {{2,4},{1,3},{5,6}};
+        int[][] time = {{2,4},{1,3},{8,10}};
         int[][] res = timeMerge(time);
         for(int[] r : res) {
             for(int i : r) {
