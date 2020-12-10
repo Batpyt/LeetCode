@@ -40,7 +40,7 @@ public class Yanghuitrangle {
     1 5 10 10 5 1
      */
     public static List<List<Integer>> generate(int numRows) {
-        List<List<Integer>> lists = new LinkedList<>();
+         List<List<Integer>> lists = new LinkedList<>();
         int[][] row = new int[numRows][numRows];
         for(int i = 0; i < numRows; i++) {
             List<Integer> list = new LinkedList<>();
