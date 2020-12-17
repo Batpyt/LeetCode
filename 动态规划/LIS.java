@@ -31,16 +31,34 @@ public class LIS {
         int res = 0;
         for(int num : nums) {
             //用二分法查找元素应该所在的位置
+            //i和j和m找的是在dp中num的位置
             int i = 0, j = res;
             while(i < j) {
                 int m = (i + j) / 2;
                 if(dp[m] < num) i = m + 1;
                 else j = m;
             }
-            //System.out.println(i + " " + num);
+            System.out.println(i + " " + num);
             //将元素计入位置
             dp[i] = num;
             //当j==res时，说明当前元素加入到了k+1，长度也要+1
+            if(res == j) res++;
+        }
+        return res;
+    }
+
+    public static int lengthOfLIS2(int[] nums) {
+        int[] dp = new int[nums.length];
+        int res = 0;
+        for(int num : nums) {
+            int i = 0;
+            int j = res;
+            while(i < j) {
+                int m = (i+j) / 2;
+                if(dp[m] < num) i = m + 1;
+                else j = m;
+            }
+            dp[i] = num;
             if(res == j) res++;
         }
         return res;
