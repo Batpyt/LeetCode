@@ -70,7 +70,7 @@ public class Rotate {
             }
         }
 
-        //左上右下翻转
+        //右上左下翻转
         for(int i = 0; i < length; i++) {
             for(int j = i; j < length; j++) {
                 //System.out.println(matrix[i][j] + " " + matrix[j][i]);
