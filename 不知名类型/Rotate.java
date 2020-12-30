@@ -68,8 +68,7 @@ public class Rotate {
                 matrix[i][j] = matrix[length - 1 - i][j];
                 matrix[length - 1 - i][j] = temp;
             }
-        }
-
+        } 
         //右上左下翻转
         for(int i = 0; i < length; i++) {
             for(int j = i; j < length; j++) {
