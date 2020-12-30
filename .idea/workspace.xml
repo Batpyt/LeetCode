@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="132形式的子序列">
-      <change afterPath="$PROJECT_DIR$/不知名类型/LastStone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/栈/RemoveDplicates.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="删除字符串重复项">
+      <change afterPath="$PROJECT_DIR$/排序/StepOfSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.RemoveDplicates">
+  <component name="RunManager" selected="Application.StepOfSort">
     <configuration name="FeedChildren" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="不知名类型.FeedChildren" />
       <module name="Code" />
@@ -116,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="动态规划.SubSequence" />
+    <configuration name="StepOfSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.StepOfSort" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="栈.*" />
+          <option name="PATTERN" value="排序.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StepOfSort" />
         <item itemvalue="Application.RemoveDplicates" />
         <item itemvalue="Application.LastStone" />
         <item itemvalue="Application.Find123" />
         <item itemvalue="Application.FeedChildren" />
-        <item itemvalue="Application.SubSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -160,21 +159,7 @@
       <workItem from="1607648852647" duration="16856000" />
       <workItem from="1607995699698" duration="37026000" />
       <workItem from="1609215576681" duration="3899000" />
-      <workItem from="1609296186777" duration="4214000" />
-    </task>
-    <task id="LOCAL-00024" summary="增减字符串匹配">
-      <created>1604393181678</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1604393181678</updated>
-    </task>
-    <task id="LOCAL-00025" summary="删除非递增序列">
-      <created>1604452766868</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1604452766868</updated>
+      <workItem from="1609296186777" duration="4955000" />
     </task>
     <task id="LOCAL-00026" summary="使数组唯一的最小增量">
       <created>1604453778730</created>
@@ -505,7 +490,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608885351614</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="最后的石头重量">
+      <created>1609317723626</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1609317723627</updated>
+    </task>
+    <task id="LOCAL-00074" summary="删除字符串重复项">
+      <created>1609317744290</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1609317744290</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,8 +523,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉树每层平均值" />
-    <MESSAGE value="单词搜索" />
     <MESSAGE value="不同路径" />
     <MESSAGE value="柠檬水找零" />
     <MESSAGE value="Dota2参议院" />
@@ -549,7 +546,9 @@
     <MESSAGE value="判断子序列" />
     <MESSAGE value="分发饼干" />
     <MESSAGE value="132形式的子序列" />
-    <option name="LAST_COMMIT_MESSAGE" value="132形式的子序列" />
+    <MESSAGE value="最后的石头重量" />
+    <MESSAGE value="删除字符串重复项" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除字符串重复项" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="85" key="DiffContextDialog" timestamp="1607995984371">
@@ -596,10 +595,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="182" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609295145562" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608885353275">
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1609317752465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608885353275" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609317752465" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608687678709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
