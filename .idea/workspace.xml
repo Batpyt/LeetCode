@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="至少多少步排完序">
-      <change afterPath="$PROJECT_DIR$/不知名类型/Zhonghua.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="种花问题">
+      <change afterPath="$PROJECT_DIR$/递归/FIB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,13 +62,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Zhonghua">
-    <configuration name="Find123" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="栈.Find123" />
+  <component name="RunManager" selected="Application.FIB">
+    <configuration name="FIB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="递归.FIB" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="栈.*" />
+          <option name="PATTERN" value="递归.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FIB" />
         <item itemvalue="Application.Zhonghua" />
         <item itemvalue="Application.StepOfSort" />
         <item itemvalue="Application.RemoveDplicates" />
         <item itemvalue="Application.LastStone" />
-        <item itemvalue="Application.Find123" />
       </list>
     </recent_temporary>
   </component>
@@ -160,14 +160,7 @@
       <workItem from="1607995699698" duration="37026000" />
       <workItem from="1609215576681" duration="3899000" />
       <workItem from="1609296186777" duration="11331000" />
-      <workItem from="1609402853732" duration="1837000" />
-    </task>
-    <task id="LOCAL-00027" summary="验证栈序列">
-      <created>1604455147731</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1604455147731</updated>
+      <workItem from="1609402853732" duration="3565000" />
     </task>
     <task id="LOCAL-00028" summary="插入区间">
       <created>1604476003817</created>
@@ -505,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609318642429</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="种花问题">
+      <created>1609723488646</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1609723488647</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +524,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="柠檬水找零" />
     <MESSAGE value="Dota2参议院" />
     <MESSAGE value="字母异位词分组" />
     <MESSAGE value="旋转矩阵" />
@@ -549,29 +548,30 @@
     <MESSAGE value="最后的石头重量" />
     <MESSAGE value="删除字符串重复项" />
     <MESSAGE value="至少多少步排完序" />
-    <option name="LAST_COMMIT_MESSAGE" value="至少多少步排完序" />
+    <MESSAGE value="种花问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="种花问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="85" key="DiffContextDialog" timestamp="1607995984371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607995984371" />
-    <state width="1212" height="170" key="GridCell.Tab.0.bottom" timestamp="1609723283609">
+    <state width="1212" height="170" key="GridCell.Tab.0.bottom" timestamp="1609723913818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609723283609" />
-    <state width="1212" height="170" key="GridCell.Tab.0.center" timestamp="1609723283609">
+    <state width="1212" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609723913818" />
+    <state width="1212" height="170" key="GridCell.Tab.0.center" timestamp="1609723913818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="170" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609723283609" />
-    <state width="1212" height="170" key="GridCell.Tab.0.left" timestamp="1609723283609">
+    <state width="1212" height="170" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609723913818" />
+    <state width="1212" height="170" key="GridCell.Tab.0.left" timestamp="1609723913818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="170" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609723283609" />
-    <state width="1212" height="170" key="GridCell.Tab.0.right" timestamp="1609723283609">
+    <state width="1212" height="170" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609723913818" />
+    <state width="1212" height="170" key="GridCell.Tab.0.right" timestamp="1609723913818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="170" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609723283609" />
+    <state width="1212" height="170" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609723913818" />
     <state width="1212" height="297" key="GridCell.Tab.1.bottom" timestamp="1609723187285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -596,10 +596,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="182" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609295145562" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1609318651851">
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1609723490618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609318651851" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609723490618" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608687678709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -620,6 +620,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="588" y="132" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1604042356167" />
+    <state x="910" y="244" key="run.anything.popup" timestamp="1609723659045">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="910" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609723659045" />
     <state x="889" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1607420552980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
