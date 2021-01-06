@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="隐藏信息">
-      <change afterPath="$PROJECT_DIR$/栈/FlipAndInvert.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="翻转、倒转矩阵">
+      <change afterPath="$PROJECT_DIR$/Greedy/Stock1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,20 +62,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.FlipAndInvert">
-    <configuration name="FIB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="递归.FIB" />
-      <module name="Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="递归.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Stock1">
     <configuration name="FlipAndInvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="栈.FlipAndInvert" />
       <module name="Code" />
@@ -115,12 +102,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="排序.MergeTwoSortedArray" />
+    <configuration name="Stock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greedy.Stock" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="排序.*" />
+          <option name="PATTERN" value="Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stock1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greedy.Stock1" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Stock1" />
+        <item itemvalue="Application.Stock" />
         <item itemvalue="Application.FlipAndInvert" />
         <item itemvalue="Application.MaskInfo" />
         <item itemvalue="Application.LargeGroup" />
-        <item itemvalue="Application.MergeTwoSortedArray" />
-        <item itemvalue="Application.FIB" />
       </list>
     </recent_temporary>
   </component>
@@ -160,14 +160,7 @@
       <workItem from="1607995699698" duration="37026000" />
       <workItem from="1609215576681" duration="3899000" />
       <workItem from="1609296186777" duration="11331000" />
-      <workItem from="1609402853732" duration="17568000" />
-    </task>
-    <task id="LOCAL-00033" summary="二维矩阵转换二进制最大和">
-      <created>1607475978423</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1607475978423</updated>
+      <workItem from="1609402853732" duration="20175000" />
     </task>
     <task id="LOCAL-00034" summary="时间区间">
       <created>1607476010896</created>
@@ -505,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609836315111</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="翻转、倒转矩阵">
+      <created>1609915783140</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1609915783142</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +524,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="每日温度-单调栈" />
     <MESSAGE value="最大字符" />
     <MESSAGE value="最小花费爬楼梯" />
     <MESSAGE value="至少其他数字两倍大的最大数" />
@@ -549,29 +548,30 @@
     <MESSAGE value="合并两个排序数组" />
     <MESSAGE value="较大分组位置" />
     <MESSAGE value="隐藏信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="隐藏信息" />
+    <MESSAGE value="翻转、倒转矩阵" />
+    <option name="LAST_COMMIT_MESSAGE" value="翻转、倒转矩阵" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="85" key="DiffContextDialog" timestamp="1607995984371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607995984371" />
-    <state width="1212" height="170" key="GridCell.Tab.0.bottom" timestamp="1609840199926">
+    <state width="1212" height="170" key="GridCell.Tab.0.bottom" timestamp="1609918264007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609840199926" />
-    <state width="1212" height="170" key="GridCell.Tab.0.center" timestamp="1609840199925">
+    <state width="1212" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609918264007" />
+    <state width="1212" height="170" key="GridCell.Tab.0.center" timestamp="1609918264006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="170" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609840199925" />
-    <state width="1212" height="170" key="GridCell.Tab.0.left" timestamp="1609840199925">
+    <state width="1212" height="170" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609918264006" />
+    <state width="1212" height="170" key="GridCell.Tab.0.left" timestamp="1609918264006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="170" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609840199925" />
-    <state width="1212" height="170" key="GridCell.Tab.0.right" timestamp="1609840199925">
+    <state width="1212" height="170" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609918264006" />
+    <state width="1212" height="170" key="GridCell.Tab.0.right" timestamp="1609918264007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="170" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609840199925" />
+    <state width="1212" height="170" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609918264007" />
     <state width="1212" height="178" key="GridCell.Tab.1.bottom" timestamp="1609839974094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -596,18 +596,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="182" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609295145562" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1609836322634">
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1609915785072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609836322634" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609915785072" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608687678709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608687678709" />
-    <state x="780" y="96" width="1039" height="840" key="dock-window-1" timestamp="1608185939755">
+    <state x="780" y="96" width="1039" height="840" key="dock-window-1" timestamp="1609917089407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="780" y="96" width="1039" height="840" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1608185939755" />
+    <state x="780" y="96" width="1039" height="840" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1609917089407" />
     <state x="449" y="179" width="1072" height="840" key="dock-window-2" timestamp="1608272059729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
