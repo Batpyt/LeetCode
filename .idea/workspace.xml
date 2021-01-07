@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="买卖股票的最佳时机2">
-      <change afterPath="$PROJECT_DIR$/Greedy/RemoveDuplicLetter.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="去除重复字母">
+      <change afterPath="$PROJECT_DIR$/DFSs/FindCircleNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,13 +62,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicLetter">
-    <configuration name="FlipAndInvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="栈.FlipAndInvert" />
+  <component name="RunManager" selected="Application.FindCircleNum">
+    <configuration name="FindCircleNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFSs.FindCircleNum" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="栈.*" />
+          <option name="PATTERN" value="DFSs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaskInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="不知名类型.MaskInfo" />
+    <configuration name="FlipAndInvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="栈.FlipAndInvert" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="不知名类型.*" />
+          <option name="PATTERN" value="栈.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindCircleNum" />
         <item itemvalue="Application.RemoveDuplicLetter" />
         <item itemvalue="Application.Stock1" />
         <item itemvalue="Application.Stock" />
         <item itemvalue="Application.FlipAndInvert" />
-        <item itemvalue="Application.MaskInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -160,14 +160,7 @@
       <workItem from="1607995699698" duration="37026000" />
       <workItem from="1609215576681" duration="3899000" />
       <workItem from="1609296186777" duration="11331000" />
-      <workItem from="1609402853732" duration="23560000" />
-    </task>
-    <task id="LOCAL-00036" summary="字符串全部排列">
-      <created>1607476091284</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1607476091284</updated>
+      <workItem from="1609402853732" duration="24888000" />
     </task>
     <task id="LOCAL-00037" summary="数组全部子集">
       <created>1607476144403</created>
@@ -505,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609920276852</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="去除重复字母">
+      <created>1609927284725</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1609927284725</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +524,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="至少其他数字两倍大的最大数" />
     <MESSAGE value="单词规律" />
     <MESSAGE value="买卖股票最大利润-动态规划/贪心" />
     <MESSAGE value="最大子序列" />
@@ -549,29 +548,30 @@
     <MESSAGE value="翻转、倒转矩阵" />
     <MESSAGE value="买卖股票的最佳时机" />
     <MESSAGE value="买卖股票的最佳时机2" />
-    <option name="LAST_COMMIT_MESSAGE" value="买卖股票的最佳时机2" />
+    <MESSAGE value="去除重复字母" />
+    <option name="LAST_COMMIT_MESSAGE" value="去除重复字母" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="85" key="DiffContextDialog" timestamp="1607995984371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607995984371" />
-    <state width="1212" height="170" key="GridCell.Tab.0.bottom" timestamp="1609927218485">
+    <state width="1212" height="170" key="GridCell.Tab.0.bottom" timestamp="1609984764475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609927218485" />
-    <state width="1212" height="170" key="GridCell.Tab.0.center" timestamp="1609927218484">
+    <state width="1212" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609984764475" />
+    <state width="1212" height="170" key="GridCell.Tab.0.center" timestamp="1609984764475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="170" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609927218484" />
-    <state width="1212" height="170" key="GridCell.Tab.0.left" timestamp="1609927218484">
+    <state width="1212" height="170" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609984764475" />
+    <state width="1212" height="170" key="GridCell.Tab.0.left" timestamp="1609984764475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="170" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609927218484" />
-    <state width="1212" height="170" key="GridCell.Tab.0.right" timestamp="1609927218484">
+    <state width="1212" height="170" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609984764475" />
+    <state width="1212" height="170" key="GridCell.Tab.0.right" timestamp="1609984764475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="170" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609927218484" />
+    <state width="1212" height="170" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609984764475" />
     <state width="1212" height="178" key="GridCell.Tab.1.bottom" timestamp="1609839974094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -596,10 +596,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="182" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609295145562" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1609920291134">
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1609927286613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609920291134" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609927286613" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608687678709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
