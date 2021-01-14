@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="岛屿数量">
-      <change afterPath="$PROJECT_DIR$/DFSs/KuoHaoGenerate.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="括号生成">
+      <change afterPath="$PROJECT_DIR$/DFSs/CombinationSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +63,20 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.KuoHaoGenerate">
+  <component name="RunManager" selected="Application.CombinationSum">
+    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFSs.CombinationSum" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DFSs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IslandNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DFSs.IslandNumbers" />
       <module name="Code" />
@@ -103,19 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedundantConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="并查集.RedundantConnection" />
-      <module name="Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="并查集.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SurrRegions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DFSs.SurrRegions" />
       <module name="Code" />
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CombinationSum" />
         <item itemvalue="Application.KuoHaoGenerate" />
         <item itemvalue="Application.IslandNumbers" />
         <item itemvalue="Application.SurrRegions" />
         <item itemvalue="Application.LongestConsecutive" />
-        <item itemvalue="Application.RedundantConnection" />
       </list>
     </recent_temporary>
   </component>
@@ -162,14 +162,7 @@
       <workItem from="1609215576681" duration="3899000" />
       <workItem from="1609296186777" duration="11331000" />
       <workItem from="1609402853732" duration="45185000" />
-      <workItem from="1610585866629" duration="6058000" />
-    </task>
-    <task id="LOCAL-00053" summary="全排列1&amp;2">
-      <created>1607936117481</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1607936117500</updated>
+      <workItem from="1610585866629" duration="6881000" />
     </task>
     <task id="LOCAL-00054" summary="单调递增的数字">
       <created>1607995834951</created>
@@ -507,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610612061835</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="括号生成">
+      <created>1610617638882</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1610617638882</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,7 +526,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="种花问题" />
     <MESSAGE value="斐波那契数列" />
     <MESSAGE value="分割链表" />
     <MESSAGE value="合并两个排序数组" />
@@ -551,7 +550,8 @@
     <MESSAGE value="最长连续序列" />
     <MESSAGE value="被围绕的区域" />
     <MESSAGE value="岛屿数量" />
-    <option name="LAST_COMMIT_MESSAGE" value="岛屿数量" />
+    <MESSAGE value="括号生成" />
+    <option name="LAST_COMMIT_MESSAGE" value="括号生成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -566,22 +566,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607995984371" />
-    <state width="1212" height="202" key="GridCell.Tab.0.bottom" timestamp="1610616737248">
+    <state width="1212" height="202" key="GridCell.Tab.0.bottom" timestamp="1610618427891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610616737248" />
-    <state width="1212" height="202" key="GridCell.Tab.0.center" timestamp="1610616737248">
+    <state width="1212" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610618427891" />
+    <state width="1212" height="202" key="GridCell.Tab.0.center" timestamp="1610618427891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610616737248" />
-    <state width="1212" height="202" key="GridCell.Tab.0.left" timestamp="1610616737247">
+    <state width="1212" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610618427891" />
+    <state width="1212" height="202" key="GridCell.Tab.0.left" timestamp="1610618427891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610616737247" />
-    <state width="1212" height="202" key="GridCell.Tab.0.right" timestamp="1610616737248">
+    <state width="1212" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610618427891" />
+    <state width="1212" height="202" key="GridCell.Tab.0.right" timestamp="1610618427891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610616737248" />
+    <state width="1212" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610618427891" />
     <state width="1212" height="81" key="GridCell.Tab.1.bottom" timestamp="1610526471977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -606,10 +606,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="182" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609295145562" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610612063666">
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610617651285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610612063666" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610617651285" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610525834698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
