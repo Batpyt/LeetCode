@@ -1,4 +1,4 @@
-package DFSs;
+package 并查集;
 
 import java.util.*;
 
@@ -37,25 +37,34 @@ public class MostStonesRemoved {
 			return count;
 		}
 
+
 		public int find(int x) {
+			//保存新节点
 			if (!parent.containsKey(x)) {
 				parent.put(x, x);
 				count++;
 			}
 
+			//路经压缩
+			//当x不是跟节点，将x的父亲节点设置为跟节点
 			if (x != parent.get(x)) {
 				parent.put(x, find(parent.get(x)));
 			}
+			//返回x的父亲节点
 			return parent.get(x);
 		}
 
+		//查询x和y的跟节点
 		public void union(int x, int y) {
 			int rootX = find(x);
 			int rootY = find(y);
+
+			//如果在一个连通分量
 			if (rootX == rootY) {
 				return;
 			}
 
+			//否则x根节点指向y的根节点
 			parent.put(rootX, rootY);
 			count--;
 		}
