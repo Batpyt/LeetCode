@@ -1,12 +1,68 @@
 package 树;
 import java.util.*;
-/*
- * 从上到下打印出二叉树的每个节点，同一层的节点按照从左到右的顺序打印。
- */
-/*
- * 用BFS方法，广度优先遍历。用一个队列来储存一个节点的左右子节点，一个arraylist来储存节点的值。
+
+/**
+ *
+ 给你一个二叉树，请你返回其按 层序遍历 得到的节点值。 （即逐层地，从左到右访问所有节点）。
+
+ 示例：
+ 二叉树：[3,9,20,null,null,15,7],
+
+ 3
+ / \
+ 9  20
+ /  \
+ 15   7
+ 返回其层序遍历结果：
+
+ [
+ [3],
+ [9,20],
+ [15,7]
+ ]
  */
 public class Anhangdayin {
+	public List<List<Integer>> levelOrder2(TreeNode root) {
+		List<List<Integer>> res = new ArrayList<>();
+
+		//新建队列，用来储存一层中的节点
+		Queue<TreeNode> roots = new LinkedList<>();
+
+		//若有根节点，将根节点记录至队列
+		if(root != null) roots.add(root);
+
+		//当还有节点-还没到底
+		while(!roots.isEmpty()) {
+			List<Integer> temp = new ArrayList<>();
+			int size = roots.size();
+			//遍历一层的节点
+			for(int i = 0; i < size; i++) {
+				TreeNode node = roots.poll();
+				//记录当前节点的值
+				temp.add(node.val);
+
+				//若当前节点还有左/右子树，将其加入队列
+				if(node.left != null) roots.add(node.left);
+				if(node.right != null) roots.add(node.right);
+			}
+			res.add(temp);
+		}
+		return res;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	public int[] levelOrder(TreeNode root) {
 		if(root == null) {
 			return new int[0];
@@ -31,11 +87,10 @@ public class Anhangdayin {
 		for(int i = 0; i < ans.length; i++) {
 			ans[i] = res.get(i);
 		}
-		
-		
-		
-		
+
 		return ans;
     }
+
+
 
 }
