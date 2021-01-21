@@ -51,15 +51,20 @@ public class Anhangdayin {
 	}
 
 
+	public void dfs(TreeNode root, List<List<Integer>> res, int level) {
+		if(root == null) return;
 
+		//遍历到了新的一层，res中添加一个新列表
+		if(res.size() == level) {
+			res.add(new ArrayList<>());
+		}
 
-
-
-
-
-
-
-
+		//在res对应层数的列表中加入当前节点的值
+		res.get(level).add(root.val);
+		//往下遍历，层数要加1
+		dfs(root.left, res, level+1);
+		dfs(root.right, res, level+1);
+	}
 
 
 
