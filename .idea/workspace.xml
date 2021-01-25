@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="二叉树的右视图">
-      <change afterPath="$PROJECT_DIR$/树/KSmallest.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="二叉搜索树第k个最小">
+      <change afterPath="$PROJECT_DIR$/树/SumRoottoLeaf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/树/InOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/树/InOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,14 +164,7 @@
       <workItem from="1609296186777" duration="11331000" />
       <workItem from="1609402853732" duration="45185000" />
       <workItem from="1610585866629" duration="25118000" />
-      <workItem from="1611105934136" duration="24789000" />
-    </task>
-    <task id="LOCAL-00070" summary="分发饼干">
-      <created>1608858776947</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1608858776953</updated>
+      <workItem from="1611105934136" duration="25437000" />
     </task>
     <task id="LOCAL-00071" summary="132形式的子序列">
       <created>1608885321085</created>
@@ -510,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611541860279</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="二叉搜索树第k个最小">
+      <created>1611567493128</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1611567493128</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +528,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="字符串压缩" />
     <MESSAGE value="旋转矩阵" />
     <MESSAGE value="零矩阵" />
     <MESSAGE value="冗余链接" />
@@ -554,7 +552,8 @@
     <MESSAGE value="大数相加" />
     <MESSAGE value="按行打印-倒序" />
     <MESSAGE value="二叉树的右视图" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树的右视图" />
+    <MESSAGE value="二叉搜索树第k个最小" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉搜索树第k个最小" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -601,10 +600,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1212" height="330" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611038803528" />
-    <state x="1050" y="225" key="RollbackChangesDialog" timestamp="1607995985572">
+    <state x="1050" y="225" key="RollbackChangesDialog" timestamp="1611567510388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1050" y="225" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607995985572" />
+    <state x="1050" y="225" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611567510388" />
     <state x="272" y="182" key="SettingsEditor" timestamp="1609295145562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
