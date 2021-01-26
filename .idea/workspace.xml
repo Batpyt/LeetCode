@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="二叉搜索树第k个最小">
-      <change afterPath="$PROJECT_DIR$/树/SumRoottoLeaf.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="根到叶子节点数字之和">
+      <change afterPath="$PROJECT_DIR$/哈希/DominoPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.StringAdd">
+  <component name="RunManager" selected="Application.DominoPairs">
     <configuration name="AddtoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="不知名类型.AddtoArray" />
       <module name="Code" />
@@ -91,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CutHuiwen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFSs.CutHuiwen" />
+    <configuration name="DominoPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="哈希.DominoPairs" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DFSs.*" />
+          <option name="PATTERN" value="哈希.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DominoPairs" />
         <item itemvalue="Application.StringAdd" />
         <item itemvalue="Application.CanPermutation" />
         <item itemvalue="Application.AddtoArray" />
         <item itemvalue="Application.MaxProductforThreeNumbers" />
-        <item itemvalue="Application.CutHuiwen" />
       </list>
     </recent_temporary>
   </component>
@@ -164,14 +164,7 @@
       <workItem from="1609296186777" duration="11331000" />
       <workItem from="1609402853732" duration="45185000" />
       <workItem from="1610585866629" duration="25118000" />
-      <workItem from="1611105934136" duration="25437000" />
-    </task>
-    <task id="LOCAL-00071" summary="132形式的子序列">
-      <created>1608885321085</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1608885321086</updated>
+      <workItem from="1611105934136" duration="27799000" />
     </task>
     <task id="LOCAL-00072" summary="132形式的子序列">
       <created>1608885351564</created>
@@ -509,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611567493128</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="根到叶子节点数字之和">
+      <created>1611568167344</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1611568167344</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +528,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="旋转矩阵" />
     <MESSAGE value="零矩阵" />
     <MESSAGE value="冗余链接" />
     <MESSAGE value="回文字符串" />
@@ -553,7 +552,8 @@
     <MESSAGE value="按行打印-倒序" />
     <MESSAGE value="二叉树的右视图" />
     <MESSAGE value="二叉搜索树第k个最小" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉搜索树第k个最小" />
+    <MESSAGE value="根到叶子节点数字之和" />
+    <option name="LAST_COMMIT_MESSAGE" value="根到叶子节点数字之和" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -568,22 +568,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607995984371" />
-    <state width="1212" height="202" key="GridCell.Tab.0.bottom" timestamp="1611541422843">
+    <state width="1212" height="202" key="GridCell.Tab.0.bottom" timestamp="1611626547511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611541422843" />
-    <state width="1212" height="202" key="GridCell.Tab.0.center" timestamp="1611541422843">
+    <state width="1212" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611626547511" />
+    <state width="1212" height="202" key="GridCell.Tab.0.center" timestamp="1611626547510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611541422843" />
-    <state width="1212" height="202" key="GridCell.Tab.0.left" timestamp="1611541422843">
+    <state width="1212" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611626547510" />
+    <state width="1212" height="202" key="GridCell.Tab.0.left" timestamp="1611626547510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611541422843" />
-    <state width="1212" height="202" key="GridCell.Tab.0.right" timestamp="1611541422843">
+    <state width="1212" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611626547510" />
+    <state width="1212" height="202" key="GridCell.Tab.0.right" timestamp="1611626547510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611541422843" />
+    <state width="1212" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611626547510" />
     <state width="1212" height="330" key="GridCell.Tab.1.bottom" timestamp="1611038803528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
