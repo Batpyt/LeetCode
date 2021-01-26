@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="多米诺">
-      <change afterPath="$PROJECT_DIR$/树/Robber.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="打家劫舍">
+      <change afterPath="$PROJECT_DIR$/动态规划/Robber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/树/LCA.java" beforeDir="false" afterPath="$PROJECT_DIR$/树/LCA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.DominoPairs">
+  <component name="RunManager" selected="Application.Robber">
     <configuration name="AddtoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="不知名类型.AddtoArray" />
       <module name="Code" />
@@ -105,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProductforThreeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFSs.MaxProductforThreeNumbers" />
+    <configuration name="Robber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="动态规划.Robber" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DFSs.*" />
+          <option name="PATTERN" value="动态规划.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Robber" />
         <item itemvalue="Application.DominoPairs" />
         <item itemvalue="Application.StringAdd" />
         <item itemvalue="Application.CanPermutation" />
         <item itemvalue="Application.AddtoArray" />
-        <item itemvalue="Application.MaxProductforThreeNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -165,14 +164,7 @@
       <workItem from="1609296186777" duration="11331000" />
       <workItem from="1609402853732" duration="45185000" />
       <workItem from="1610585866629" duration="25118000" />
-      <workItem from="1611105934136" duration="30841000" />
-    </task>
-    <task id="LOCAL-00073" summary="最后的石头重量">
-      <created>1609317723626</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1609317723627</updated>
+      <workItem from="1611105934136" duration="31932000" />
     </task>
     <task id="LOCAL-00074" summary="删除字符串重复项">
       <created>1609317744290</created>
@@ -510,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611626871266</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="打家劫舍">
+      <created>1611648509710</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1611648509711</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +528,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="冗余链接" />
     <MESSAGE value="回文字符串" />
     <MESSAGE value="最长连续序列" />
     <MESSAGE value="被围绕的区域" />
@@ -554,7 +552,8 @@
     <MESSAGE value="二叉搜索树第k个最小" />
     <MESSAGE value="根到叶子节点数字之和" />
     <MESSAGE value="多米诺" />
-    <option name="LAST_COMMIT_MESSAGE" value="多米诺" />
+    <MESSAGE value="打家劫舍" />
+    <option name="LAST_COMMIT_MESSAGE" value="打家劫舍" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -569,22 +568,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607995984371" />
-    <state width="1212" height="202" key="GridCell.Tab.0.bottom" timestamp="1611626547511">
+    <state width="1212" height="202" key="GridCell.Tab.0.bottom" timestamp="1611649422816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611626547511" />
-    <state width="1212" height="202" key="GridCell.Tab.0.center" timestamp="1611626547510">
+    <state width="1212" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611649422816" />
+    <state width="1212" height="202" key="GridCell.Tab.0.center" timestamp="1611649422816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611626547510" />
-    <state width="1212" height="202" key="GridCell.Tab.0.left" timestamp="1611626547510">
+    <state width="1212" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611649422816" />
+    <state width="1212" height="202" key="GridCell.Tab.0.left" timestamp="1611649422815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611626547510" />
-    <state width="1212" height="202" key="GridCell.Tab.0.right" timestamp="1611626547510">
+    <state width="1212" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611649422815" />
+    <state width="1212" height="202" key="GridCell.Tab.0.right" timestamp="1611649422816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611626547510" />
+    <state width="1212" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611649422816" />
     <state width="1212" height="330" key="GridCell.Tab.1.bottom" timestamp="1611038803528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -609,10 +608,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="182" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609295145562" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611626875618">
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611648511523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611626875618" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611648511523" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610937249619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
