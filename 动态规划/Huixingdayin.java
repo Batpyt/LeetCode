@@ -20,6 +20,11 @@ public class Huixingdayin {
 		for(int i = 0; i < res.length; i++) {
 			System.out.println(res[i]);
 		}
+
+		int[] r = rotatePrint(num);
+		for(int i : r) {
+			System.out.print(i +" ");
+		}
 		
 	}
 	/*
@@ -31,6 +36,46 @@ public class Huixingdayin {
 	 * 从下到上，纵坐标b到t，横坐标l，完毕后l-1.
 	 * 每次读取完一列/行都检测是否读取完全部数据，若读取完则break。
 	 */
+	public static int[] rotatePrint(int[][] matrix) {
+		int res[] = new int[matrix.length * matrix[0].length];
+		int left = 0;
+		int right = matrix[0].length - 1;
+		int top = 0;
+		int bottom = matrix.length - 1;
+		int count = 0;
+
+		while (true) {
+			for(int i = left; i <= right; i++) {
+				res[count] = matrix[top][i];
+				count++;
+			}
+			if(count >= res.length) break;
+			top++;
+
+			for(int i = top; i <= bottom; i++) {
+				res[count] = matrix[i][right];
+				count++;
+			}
+			if(count >= res.length) break;
+			right--;
+
+			for(int i = right; i >= left; i--) {
+				res[count] = matrix[bottom][i];
+				count++;
+			}
+			if(count >= res.length) break;
+			bottom--;
+
+			for(int i = bottom; i >= top; i--) {
+				res[count] = matrix[i][left];
+				count++;
+			}
+			if(count >= res.length) break;
+			left++;
+		}
+		return res;
+	}
+
 	
     public static int[] spiralOrder(int[][] matrix) {
     	int[] res = new int[matrix[0].length * matrix.length];
