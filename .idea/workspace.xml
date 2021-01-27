@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="左叶子和">
-      <change afterPath="$PROJECT_DIR$/树/DeleteNodeInBST.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="删除二叉树的一个节点">
+      <change afterPath="$PROJECT_DIR$/树/FindZhongshuInBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,14 +164,7 @@
       <workItem from="1609296186777" duration="11331000" />
       <workItem from="1609402853732" duration="45185000" />
       <workItem from="1610585866629" duration="25118000" />
-      <workItem from="1611105934136" duration="44319000" />
-    </task>
-    <task id="LOCAL-00079" summary="合并两个排序数组">
-      <created>1609754658462</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1609754658462</updated>
+      <workItem from="1611105934136" duration="45584000" />
     </task>
     <task id="LOCAL-00080" summary="较大分组位置">
       <created>1609810317845</created>
@@ -509,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611717684109</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="删除二叉树的一个节点">
+      <created>1611736610856</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1611736610858</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +528,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="括号生成" />
     <MESSAGE value="组合总数" />
     <MESSAGE value="通配符匹配" />
     <MESSAGE value="组合总数2" />
@@ -553,7 +552,8 @@
     <MESSAGE value="环形打印" />
     <MESSAGE value="N叉树层序打印" />
     <MESSAGE value="左叶子和" />
-    <option name="LAST_COMMIT_MESSAGE" value="左叶子和" />
+    <MESSAGE value="删除二叉树的一个节点" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除二叉树的一个节点" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -608,10 +608,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="182" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609295145562" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611717685470">
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611736613698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611717685470" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611736613698" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610937249619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
