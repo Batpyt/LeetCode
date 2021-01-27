@@ -13,6 +13,20 @@ public class Zuoyezihe {
         return res + sumOfLeftLeaves(root.left) + sumOfLeftLeaves(root.right);
     }
 
+    public int sumOfLeftLeaves2(TreeNode root) {
+        if(root == null) return 0;
+        int res = 0;
+        if(root.left != null && root.left.left == null && root.left.right == null) {
+            res = root.left.val;
+        }
+
+        return res + sumOfLeftLeaves2(root.left) + sumOfLeftLeaves2(root.right);
+    }
+
+    public boolean isLeaf(TreeNode node) {
+        return true;
+    }
+
 }
 
 
