@@ -30,34 +30,23 @@ import java.util.List;
  */
 
 public class Yanzhengershasousuoshu {
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
+    long pre = Long.MIN_VALUE;
+    public boolean isValidBST(TreeNode root) {
+        if (root == null) {
+            return true;
+        }
+        // 访问左子树
+        if (!isValidBST(root.left)) {
+            return false;
+        }
+        // 访问当前节点：如果当前节点小于等于中序遍历的前一个节点，说明不满足BST，返回 false；否则继续遍历。
+        if (root.val <= pre) {
+            return false;
+        }
+        pre = root.val;
+        // 访问右子树
+        return isValidBST(root.right);
     }
 
-    static Deque<Integer> stack = new LinkedList<>();  //全局变量栈
-    public static boolean isValidBST(TreeNode root) {
-        int[] num = new int[stack.size()];
-        int i = 0;
-        while(!stack.isEmpty()) {
-            num[i] = stack.pop();
-            i++;
-        }
-        for(int j = 1; j < num.length; j++) {
-            if(num[i] > num[i - 1]) return false;
-        }
-        return true;
-    }
-
-    public static void inOrder(TreeNode treeNode) {
-        if(treeNode == null) return;
-        else {
-            inOrder(treeNode.left);
-            stack.push(treeNode.val);  //中序遍历
-            inOrder(treeNode.right);
-        }
-    }
 
 }
