@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="二叉树直径">
-      <change afterPath="$PROJECT_DIR$/树/SubtreeofAnotherTree.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="另一个树的子树">
+      <change afterPath="$PROJECT_DIR$/树/ContrustString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +39,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gI68b5UDqBC1AgawNGq6xPPRjN" />
@@ -62,7 +67,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RunManager" selected="Application.MidIndex">
     <configuration name="DominoPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -164,14 +169,7 @@
       <workItem from="1609296186777" duration="11331000" />
       <workItem from="1609402853732" duration="45185000" />
       <workItem from="1610585866629" duration="25118000" />
-      <workItem from="1611105934136" duration="58941000" />
-    </task>
-    <task id="LOCAL-00090" summary="旋转数组">
-      <created>1610068358608</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1610068358608</updated>
+      <workItem from="1611105934136" duration="60252000" />
     </task>
     <task id="LOCAL-00091" summary="一次编辑">
       <created>1610086949803</created>
@@ -509,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611901097522</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="另一个树的子树">
+      <created>1611905986807</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1611905986807</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +533,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="不同的二叉搜索树" />
     <MESSAGE value="二叉树的层序遍历" />
     <MESSAGE value="合并排序链表" />
     <MESSAGE value="二叉树层序遍历dfs" />
@@ -553,7 +557,8 @@
     <MESSAGE value="二叉搜索树的最小绝对值" />
     <MESSAGE value="每层的最大值" />
     <MESSAGE value="二叉树直径" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树直径" />
+    <MESSAGE value="另一个树的子树" />
+    <option name="LAST_COMMIT_MESSAGE" value="另一个树的子树" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -568,6 +573,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607995984371" />
+    <state width="204" height="327" key="Git.Branch.Popup" timestamp="1611906389395">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="204" height="327" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611906389395" />
     <state width="1209" height="202" key="GridCell.Tab.0.bottom" timestamp="1611901118089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -604,14 +613,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1050" y="225" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611886259807" />
-    <state x="272" y="182" key="SettingsEditor" timestamp="1609295145562">
+    <state x="272" y="182" key="SettingsEditor" timestamp="1611906205024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="272" y="182" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609295145562" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611901104253">
+    <state x="272" y="182" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611906205024" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611906380381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611901104253" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611906380381" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610937249619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
