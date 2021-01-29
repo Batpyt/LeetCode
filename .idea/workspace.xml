@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="另一个树的子树">
-      <change afterPath="$PROJECT_DIR$/树/ContrustString.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="二叉树构建字符串">
+      <change afterPath="$PROJECT_DIR$/树/AddOneRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/树/MergeTwoTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,14 +170,7 @@
       <workItem from="1609296186777" duration="11331000" />
       <workItem from="1609402853732" duration="45185000" />
       <workItem from="1610585866629" duration="25118000" />
-      <workItem from="1611105934136" duration="60252000" />
-    </task>
-    <task id="LOCAL-00091" summary="一次编辑">
-      <created>1610086949803</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1610086949803</updated>
+      <workItem from="1611105934136" duration="62360000" />
     </task>
     <task id="LOCAL-00092" summary="可组成回文（set）">
       <created>1610086971144</created>
@@ -514,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611905986807</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="二叉树构建字符串">
+      <created>1611907324547</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1611907324548</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +534,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉树的层序遍历" />
     <MESSAGE value="合并排序链表" />
     <MESSAGE value="二叉树层序遍历dfs" />
     <MESSAGE value="大数相加" />
@@ -558,7 +558,8 @@
     <MESSAGE value="每层的最大值" />
     <MESSAGE value="二叉树直径" />
     <MESSAGE value="另一个树的子树" />
-    <option name="LAST_COMMIT_MESSAGE" value="另一个树的子树" />
+    <MESSAGE value="二叉树构建字符串" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树构建字符串" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -617,10 +618,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="182" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611906205024" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611906380381">
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611907326498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611906380381" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611907326498" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610937249619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
