@@ -42,6 +42,11 @@ public class BottomLeft {
 		return res;
 	}
 
+	/**
+	 *
+	 * @param root
+	 * @param depth 记录深度
+	 */
 	public void dfs(TreeNode root, int depth) {
 		if(root == null) return;
 		if(root.left == null && root.right == null) {
