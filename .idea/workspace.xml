@@ -19,9 +19,341 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="数组中心索引">
-      <change afterPath="$PROJECT_DIR$/树/BottomLeft.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="树左下角的值">
+      <change afterPath="$PROJECT_DIR$/out/production/Code/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/.idea/shelf/Uncommitted_changes_before_Update_at_2021_1_13_16_17_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/.idea/shelf/Uncommitted_changes_before_Update_at_2021_1_13_16_17__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/.idea/shelf/Uncommitted_changes_before_Update_at_2021_1_18_10_34_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/.idea/shelf/Uncommitted_changes_before_Update_at_2021_1_18_10_34__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/BFS/Zougezi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/Code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/CombinationSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/CombinationSum2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/CutHuiwen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/Dancisousuo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/Erchashupingjunzhi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/FindCircleNum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/IslandNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/Juzhenlujing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/KuoHaoGenerate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/LetterCombinations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/MaxProductforThreeNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/QuanPailie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/QuanPailiee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/RestoreIpAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/SplitIntoFibonacci.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/SubList2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/SurrRegions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/Yanzhengershasousuoshu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/Zifuchuanpailie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/Ziji.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/Zougezi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/Zuhezhengshu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/Zuhezhongshu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/DFSs/Zuhezonghe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/Greedy/Dota2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/Greedy/MatrixScore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/Greedy/RemoveDuplicLetter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/Greedy/Stock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/Greedy/Stock1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/Greedy/StockTwice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/META-INF/Code.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/AddtoArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/Anagram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/AppearOnce.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/AppearOnce2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/Attendance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/Difference.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/Duplicate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/FeedChildren.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/FourCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/HammingDistance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/IncreasingDigit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/InsertionPart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/IslandZhouchang.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/Jiaoji.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/Jiaoji2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/LargeGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/LargestTriangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/LastStone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/LemonMoney.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/MaskInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/MidIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/Minaddkuohao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/MoveStone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/MoveZero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/NumGuess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/Palindrome.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/QuickSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/RemoveChongfu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/RingInWuxiangtu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/Rotate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/RotateArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/RotateMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/SanjiaoxingPrint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/StraightLine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/SubarraySum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/SummaryRanges.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/TwoTimesNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/UniqueChar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/WordBreak.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/WordPattern.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/Yanghuitrangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/ZeroMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/不知名类型/Zhonghua.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/二分法/BinarySearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/二分法/Charuweizhi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/二分法/Chuxiancishu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/二分法/Erweijuzhen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/二分法/FindMin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/二分法/Kuaisumi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/二分法/Missingnumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/二分法/Paixuxuanzhuanshuzu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/二分法/TwoSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/二分法/Xuanzhuanshuzu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/二分法/Yigeshudeshouweiweizhi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/二分法/isSquare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Chengjishuzu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/ClimbStair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Envelopes$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Envelopes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/EraseOverlap$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/EraseOverlap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Erchasousuoshu$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Erchasousuoshu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Feibonaqishulie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/FindAnagrams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Gupiao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Huixingdayin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Jieyushui.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Juzhenliwu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Juzhenzoufa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Juzhenzoufa2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/LIS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Lianxuzixuliezuidahe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/MaxSumNoOverlap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/MinArrowShots$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/MinArrowShots.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Paths.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Pipei.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Qingwatiaotaijie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Raoluanzifuchuan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/RightInterval$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/RightInterval.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Robber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Shangshengzixuliezuidazhi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Shuzifanyi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/SubSequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/SubStringContainThreeContain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Tiaotaijie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/TimeMerge$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/TimeMerge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/WordMatching.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Zimupipei.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/ZuiChangChongFu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Zuichangbuchongfu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Zuichanghuiwenzichuan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Zuichangshanmai.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/ZuidaGonggongzifuchuan_JD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Zuidazixuhe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/Zuixiaolujing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/动态规划/maxSubRingArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/哈希/Anagrams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/哈希/DominoPairs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/哈希/FirstUnique.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/哈希/Hexie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/哈希/TongGouString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/哈希/WordPattern.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/堆/MedianFinder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/堆/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/字符串/CanPermutation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/字符串/OneEdit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/字符串/StringAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/字符串/StringCompress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/字符串/StringRotate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/字符串/URL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/并查集/LongestConsecutive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/并查集/MostStonesRemoved$UnionFind.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/并查集/MostStonesRemoved.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/并查集/RedundantConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/AllCellsDisorder$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/AllCellsDisorder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/ChongFu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/DeleteDecrease.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/KClosest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/KClosest2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/Kuaipai.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/MaxGap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/MergeTwoSortedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/MinMoveforUnique.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/MountainArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/NextGreatestLetter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/Nizifuchuan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/Permutation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/QuickSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/RankTeam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/RelativeSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/SearchRange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/Shunzi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/Shuzufenlei.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/Shuzupingfang.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/SortByBinaryCountone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/SortString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/SortbyParity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/StepOfSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/StringMatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/Yibanyishangdeshu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/YuansuTidaozuiqian.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/排序/qSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/栈/CheckStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/栈/DailyTemperature.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/栈/Find123.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/栈/FlipAndInvert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/栈/Hantuigezifuchuan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/栈/MinStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/栈/RemoveDplicates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/栈/RemoveK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/栈/Shuangzhanduilie$CQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/栈/Shuangzhanduilie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/栈/SmallestSubSequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/栈/Unixjianhua.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/栈/YaruTanchu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/栈/Youbiandiyigedayu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/栈/Zuichangyouxiaokuohao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Anhangdayin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Anhangdayin_II.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Anhangdayin_III.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/CountNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/DeleteNodeInBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Dikda.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Duichenshu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Erchasousuoshu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Fanzhuanerchashu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/FindZhongshuInBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Gouzaierchashu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Gouzaoerchashu2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Hebinglianggeshu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Heweishuruzhi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/InOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/IsSubTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Jingxiang.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/KSmallest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/LCA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/LargestValueinEachRow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Leijiashu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/LevelorderBottom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/ListinTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/MaxDepth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/NTreeLevelOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/PathSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/PathSum2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/PathSum3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Pingheng.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/RightSideView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Robber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Shendu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/SumRoottoLeaf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/SumfromRoot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/TreeIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/TreePath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/UniqueBinarySearchTree2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Xiangtongdeshu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Yezijiedian$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Yezijiedian.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/ZigZagOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Zijiegou.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Zuidashendu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Zuijinzuxian.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Zuixiaoshendu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/Zuoyezihe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/postOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/树/preOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/递归/CombineSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/递归/FIB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/递归/Qingwatiaotaijie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/递归/QuickPow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/Chongpailianbiao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/CopyRandomList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/Daoshudik.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/Daoshun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/Deletnode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/Fanzhuanlianbiao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/Fanzhuanlianbiao2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/Fuzalianbiao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/Hebingpaixushuzu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/Huanxing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/Huanxinglianbiao2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/Huiwenlianbiao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/KthtoLast.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/OddEvenList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/Partition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/SumtwoList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/Xiangjiao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/insertSortList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/链表/rotateRight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/队列/Jioupailie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Bihuan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Chaisushu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Choushu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Chuxianyici.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Chuxianzuiduo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Cifang.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Dayizuidashu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/FanhuiM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Gupiao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Heweis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Heweisdexulie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/HiretualTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Huiwensushu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Jioufenkai.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Juzhenxuanzhuan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Konggetihuan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Maidongxi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/MaxQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Mediannumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Miaoshu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/MultiThreadCompete.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Nixudui.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Nixushu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Pailie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Panduanshuzi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Paobulujing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Qichelirun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Qumo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Sanzhengchu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Shence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Shuzujishi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Shuzuzhongchuxianyici.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/SmallerthanCurrent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/UniqueOccur.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Xiaoquguilei.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Yichuxiancishu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Yidegeshu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Yidegeshu_weiyunsuan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Youbianzuidashu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Yuesefuhuan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Yunxingjieguo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Zhichuxianyici.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Zifuchuanpailie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Zifuchuanzhuanzhengshu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/Zuidashuzi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Code/面试算法题/qwe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/树/MosrFrequentSubtreeSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/BottomLeft.java" beforeDir="false" afterPath="$PROJECT_DIR$/树/BottomLeft.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,14 +496,7 @@
       <workItem from="1609296186777" duration="11331000" />
       <workItem from="1609402853732" duration="45185000" />
       <workItem from="1610585866629" duration="25118000" />
-      <workItem from="1611105934136" duration="50045000" />
-    </task>
-    <task id="LOCAL-00083" summary="买卖股票的最佳时机">
-      <created>1609918349998</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1609918349998</updated>
+      <workItem from="1611105934136" duration="54345000" />
     </task>
     <task id="LOCAL-00084" summary="买卖股票的最佳时机2">
       <created>1609920276852</created>
@@ -509,7 +834,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611798530862</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="树左下角的值">
+      <created>1611828180932</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1611828180956</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +860,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="不会" />
     <MESSAGE value="全排列" />
     <MESSAGE value="子集2" />
     <MESSAGE value="复原IP地址" />
@@ -553,7 +884,8 @@
     <MESSAGE value="二叉搜索树中的众数" />
     <MESSAGE value="验证二叉树" />
     <MESSAGE value="数组中心索引" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组中心索引" />
+    <MESSAGE value="树左下角的值" />
+    <option name="LAST_COMMIT_MESSAGE" value="树左下角的值" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -608,10 +940,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="182" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609295145562" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611798533427">
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611828190952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611798533427" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611828190952" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610937249619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
