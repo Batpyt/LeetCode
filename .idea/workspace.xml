@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="合并两个二叉树">
-      <change afterPath="$PROJECT_DIR$/不知名类型/CandySwap.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="公平糖果交换">
+      <change afterPath="$PROJECT_DIR$/树/TwoSuminBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,14 +169,7 @@
       <workItem from="1609296186777" duration="11331000" />
       <workItem from="1609402853732" duration="45185000" />
       <workItem from="1610585866629" duration="25118000" />
-      <workItem from="1611105934136" duration="63862000" />
-    </task>
-    <task id="LOCAL-00094" summary="字符串压缩">
-      <created>1610088076900</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1610088076900</updated>
+      <workItem from="1611105934136" duration="65496000" />
     </task>
     <task id="LOCAL-00095" summary="旋转矩阵">
       <created>1610091238143</created>
@@ -514,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611909492360</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="公平糖果交换">
+      <created>1612143442640</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1612143442661</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +533,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="大数相加" />
     <MESSAGE value="按行打印-倒序" />
     <MESSAGE value="二叉树的右视图" />
     <MESSAGE value="二叉搜索树第k个最小" />
@@ -558,7 +557,8 @@
     <MESSAGE value="二叉树构建字符串" />
     <MESSAGE value="二叉树增加一行" />
     <MESSAGE value="合并两个二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="合并两个二叉树" />
+    <MESSAGE value="公平糖果交换" />
+    <option name="LAST_COMMIT_MESSAGE" value="公平糖果交换" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -577,22 +577,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="204" height="327" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611906389395" />
-    <state width="1209" height="202" key="GridCell.Tab.0.bottom" timestamp="1612143354537">
+    <state width="1209" height="202" key="GridCell.Tab.0.bottom" timestamp="1612145340809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1209" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612143354537" />
-    <state width="1209" height="202" key="GridCell.Tab.0.center" timestamp="1612143354535">
+    <state width="1209" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612145340809" />
+    <state width="1209" height="202" key="GridCell.Tab.0.center" timestamp="1612145340808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1209" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612143354535" />
-    <state width="1209" height="202" key="GridCell.Tab.0.left" timestamp="1612143354535">
+    <state width="1209" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612145340808" />
+    <state width="1209" height="202" key="GridCell.Tab.0.left" timestamp="1612145340808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1209" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612143354535" />
-    <state width="1209" height="202" key="GridCell.Tab.0.right" timestamp="1612143354535">
+    <state width="1209" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612145340808" />
+    <state width="1209" height="202" key="GridCell.Tab.0.right" timestamp="1612145340808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1209" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612143354535" />
+    <state width="1209" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612145340808" />
     <state width="1212" height="330" key="GridCell.Tab.1.bottom" timestamp="1611038803528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
