@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="最大二叉树">
-      <change afterPath="$PROJECT_DIR$/双指针/LongestRepeating.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="替换后的最长重复字符">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/二分法/Erweijuzhen.java" beforeDir="false" afterPath="$PROJECT_DIR$/二分法/Erweijuzhen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +69,26 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager" selected="Application.LongestRepeating">
+  <component name="RunManager" selected="Application.Erweijuzhen">
     <configuration name="CandySwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="不知名类型.CandySwap" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="不知名类型.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Erweijuzhen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="二分法.Erweijuzhen" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="二分法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,26 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Robber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="动态规划.Robber" />
-      <module name="Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="动态规划.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Erweijuzhen" />
         <item itemvalue="Application.LongestRepeating" />
         <item itemvalue="Application.CandySwap" />
         <item itemvalue="Application.MidIndex" />
         <item itemvalue="Application.Huixingdayin" />
-        <item itemvalue="Application.Robber" />
       </list>
     </recent_temporary>
   </component>
@@ -170,14 +170,7 @@
       <workItem from="1609402853732" duration="45185000" />
       <workItem from="1610585866629" duration="25118000" />
       <workItem from="1611105934136" duration="69047000" />
-      <workItem from="1612231760268" duration="1656000" />
-    </task>
-    <task id="LOCAL-00097" summary="冗余链接">
-      <created>1610526449358</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1610526449358</updated>
+      <workItem from="1612231760268" duration="4276000" />
     </task>
     <task id="LOCAL-00098" summary="回文字符串">
       <created>1610526461905</created>
@@ -515,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612165848043</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="替换后的最长重复字符">
+      <created>1612233554535</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1612233554536</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +534,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉搜索树第k个最小" />
     <MESSAGE value="根到叶子节点数字之和" />
     <MESSAGE value="多米诺" />
     <MESSAGE value="打家劫舍" />
@@ -559,7 +558,8 @@
     <MESSAGE value="公平糖果交换" />
     <MESSAGE value="两数之和" />
     <MESSAGE value="最大二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="最大二叉树" />
+    <MESSAGE value="替换后的最长重复字符" />
+    <option name="LAST_COMMIT_MESSAGE" value="替换后的最长重复字符" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -578,22 +578,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="204" height="327" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611906389395" />
-    <state width="1212" height="202" key="GridCell.Tab.0.bottom" timestamp="1612232513199">
+    <state width="1212" height="202" key="GridCell.Tab.0.bottom" timestamp="1612259246788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612232513199" />
-    <state width="1212" height="202" key="GridCell.Tab.0.center" timestamp="1612232513199">
+    <state width="1212" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612259246788" />
+    <state width="1212" height="202" key="GridCell.Tab.0.center" timestamp="1612259246788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612232513199" />
-    <state width="1212" height="202" key="GridCell.Tab.0.left" timestamp="1612232513198">
+    <state width="1212" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612259246788" />
+    <state width="1212" height="202" key="GridCell.Tab.0.left" timestamp="1612259246788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612232513198" />
-    <state width="1212" height="202" key="GridCell.Tab.0.right" timestamp="1612232513199">
+    <state width="1212" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612259246788" />
+    <state width="1212" height="202" key="GridCell.Tab.0.right" timestamp="1612259246788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612232513199" />
+    <state width="1212" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612259246788" />
     <state width="1212" height="330" key="GridCell.Tab.1.bottom" timestamp="1611038803528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -634,10 +634,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="449" y="179" width="1072" height="840" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1609926876561" />
-    <state x="947" y="270" width="592" height="536" key="find.popup" timestamp="1611888097339">
+    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1612255330497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="947" y="270" width="592" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611888097339" />
+    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612255330497" />
     <state x="588" y="132" key="new project wizard" timestamp="1604042356167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
