@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="二维数组中的查找">
-      <change afterPath="$PROJECT_DIR$/双指针和滑动窗口/SlidingWindowMedian.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="滑动窗口中位数">
+      <change afterPath="$PROJECT_DIR$/双指针和滑动窗口/MaxAverageSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/双指针/LongestRepeating.java" beforeDir="false" afterPath="$PROJECT_DIR$/双指针和滑动窗口/LongestRepeating.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager" selected="Application.SlidingWindowMedian">
+  <component name="RunManager" selected="Application.MaxAverageSubarray">
     <configuration name="CandySwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="不知名类型.CandySwap" />
       <module name="Code" />
@@ -110,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MidIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="不知名类型.MidIndex" />
+    <configuration name="MaxAverageSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.MaxAverageSubarray" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="不知名类型.*" />
+          <option name="PATTERN" value="双指针和滑动窗口.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxAverageSubarray" />
         <item itemvalue="Application.SlidingWindowMedian" />
         <item itemvalue="Application.Erweijuzhen" />
         <item itemvalue="Application.LongestRepeating" />
         <item itemvalue="Application.CandySwap" />
-        <item itemvalue="Application.MidIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -171,14 +170,7 @@
       <workItem from="1609402853732" duration="45185000" />
       <workItem from="1610585866629" duration="25118000" />
       <workItem from="1611105934136" duration="69047000" />
-      <workItem from="1612231760268" duration="7589000" />
-    </task>
-    <task id="LOCAL-00099" summary="最长连续序列">
-      <created>1610527632806</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1610527632819</updated>
+      <workItem from="1612231760268" duration="9434000" />
     </task>
     <task id="LOCAL-00100" summary="被围绕的区域">
       <created>1610610364230</created>
@@ -516,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612259356808</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="滑动窗口中位数">
+      <created>1612317033650</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1612317033650</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +534,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="多米诺" />
     <MESSAGE value="打家劫舍" />
     <MESSAGE value="打家劫舍-数组" />
     <MESSAGE value="环形打印" />
@@ -560,7 +558,8 @@
     <MESSAGE value="最大二叉树" />
     <MESSAGE value="替换后的最长重复字符" />
     <MESSAGE value="二维数组中的查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="二维数组中的查找" />
+    <MESSAGE value="滑动窗口中位数" />
+    <option name="LAST_COMMIT_MESSAGE" value="滑动窗口中位数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -579,22 +578,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="206" height="329" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612259363140" />
-    <state width="1212" height="202" key="GridCell.Tab.0.bottom" timestamp="1612316932847">
+    <state width="1212" height="202" key="GridCell.Tab.0.bottom" timestamp="1612401170871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612316932847" />
-    <state width="1212" height="202" key="GridCell.Tab.0.center" timestamp="1612316932847">
+    <state width="1212" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612401170871" />
+    <state width="1212" height="202" key="GridCell.Tab.0.center" timestamp="1612401170871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612316932847" />
-    <state width="1212" height="202" key="GridCell.Tab.0.left" timestamp="1612316932847">
+    <state width="1212" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612401170871" />
+    <state width="1212" height="202" key="GridCell.Tab.0.left" timestamp="1612401170871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612316932847" />
-    <state width="1212" height="202" key="GridCell.Tab.0.right" timestamp="1612316932847">
+    <state width="1212" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612401170871" />
+    <state width="1212" height="202" key="GridCell.Tab.0.right" timestamp="1612401170871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612316932847" />
+    <state width="1212" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612401170871" />
     <state width="1212" height="330" key="GridCell.Tab.1.bottom" timestamp="1611038803528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
