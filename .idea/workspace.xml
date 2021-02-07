@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="矩阵中的路径">
-      <change afterPath="$PROJECT_DIR$/双指针和滑动窗口/GetEqualSubstringsWithBudget.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="尽可能使字符串相等">
+      <change afterPath="$PROJECT_DIR$/排序/NonDecreasingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/排序/PrintOnettoN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFSs/Zougezi.java" beforeDir="false" afterPath="$PROJECT_DIR$/DFSs/Zougezi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,20 +71,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager" selected="Application.GetEqualSubstringsWithBudget">
-    <configuration name="Erweijuzhen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="二分法.Erweijuzhen" />
-      <module name="Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="二分法.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PrintOnettoN">
     <configuration name="GetEqualSubstringsWithBudget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.GetEqualSubstringsWithBudget" />
       <module name="Code" />
@@ -96,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxAverageSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.MaxAverageSubarray" />
+    <configuration name="NonDecreasingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.NonDecreasingArray" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="双指针和滑动窗口.*" />
+          <option name="PATTERN" value="排序.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +111,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SlidingWindowMedian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.SlidingWindowMedian" />
+    <configuration name="PrintOnettoN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.PrintOnettoN" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="双指针和滑动窗口.*" />
+          <option name="PATTERN" value="排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zougezi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFSs.Zougezi" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DFSs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintOnettoN" />
+        <item itemvalue="Application.NonDecreasingArray" />
+        <item itemvalue="Application.Zougezi" />
         <item itemvalue="Application.GetEqualSubstringsWithBudget" />
         <item itemvalue="Application.PathInMatrix" />
-        <item itemvalue="Application.MaxAverageSubarray" />
-        <item itemvalue="Application.SlidingWindowMedian" />
-        <item itemvalue="Application.Erweijuzhen" />
       </list>
     </recent_temporary>
   </component>
@@ -170,14 +172,7 @@
       <workItem from="1609402853732" duration="45185000" />
       <workItem from="1610585866629" duration="25118000" />
       <workItem from="1611105934136" duration="69047000" />
-      <workItem from="1612231760268" duration="14574000" />
-    </task>
-    <task id="LOCAL-00102" summary="括号生成">
-      <created>1610617638882</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1610617638882</updated>
+      <workItem from="1612231760268" duration="19394000" />
     </task>
     <task id="LOCAL-00103" summary="组合总数">
       <created>1610618460397</created>
@@ -515,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612432826671</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="尽可能使字符串相等">
+      <created>1612488713013</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1612488713013</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +536,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="环形打印" />
     <MESSAGE value="N叉树层序打印" />
     <MESSAGE value="左叶子和" />
     <MESSAGE value="删除二叉树的一个节点" />
@@ -559,7 +560,8 @@
     <MESSAGE value="滑动窗口中位数" />
     <MESSAGE value="子数组最大平均数" />
     <MESSAGE value="矩阵中的路径" />
-    <option name="LAST_COMMIT_MESSAGE" value="矩阵中的路径" />
+    <MESSAGE value="尽可能使字符串相等" />
+    <option name="LAST_COMMIT_MESSAGE" value="尽可能使字符串相等" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -578,22 +580,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="208" height="331" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612418342660" />
-    <state width="1212" height="202" key="GridCell.Tab.0.bottom" timestamp="1612488298630">
+    <state width="1212" height="202" key="GridCell.Tab.0.bottom" timestamp="1612686979908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612488298630" />
-    <state width="1212" height="202" key="GridCell.Tab.0.center" timestamp="1612488298630">
+    <state width="1212" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612686979908" />
+    <state width="1212" height="202" key="GridCell.Tab.0.center" timestamp="1612686979908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612488298630" />
-    <state width="1212" height="202" key="GridCell.Tab.0.left" timestamp="1612488298630">
+    <state width="1212" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612686979908" />
+    <state width="1212" height="202" key="GridCell.Tab.0.left" timestamp="1612686979908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612488298630" />
-    <state width="1212" height="202" key="GridCell.Tab.0.right" timestamp="1612488298630">
+    <state width="1212" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612686979908" />
+    <state width="1212" height="202" key="GridCell.Tab.0.right" timestamp="1612686979908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612488298630" />
+    <state width="1212" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612686979908" />
     <state width="1212" height="330" key="GridCell.Tab.1.bottom" timestamp="1611038803528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -634,10 +636,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="449" y="179" width="1072" height="840" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1609926876561" />
-    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1612430677544">
+    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1612489411022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612430677544" />
+    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612489411022" />
     <state x="588" y="132" key="new project wizard" timestamp="1604042356167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
