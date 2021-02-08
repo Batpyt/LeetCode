@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="字符串匹配">
-      <change afterPath="$PROJECT_DIR$/双指针和滑动窗口/WiggleSubsequence.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="摆动序列">
+      <change afterPath="$PROJECT_DIR$/双指针和滑动窗口/SortedArrayJiaoji.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/链表/Fanzhuanlianbiao.java" beforeDir="false" afterPath="$PROJECT_DIR$/链表/Fanzhuanlianbiao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager" selected="Application.WiggleSubsequence">
+  <component name="RunManager" selected="Application.SortedArrayJiaoji">
     <configuration name="LongestTurbulentSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.LongestTurbulentSubarray" />
       <module name="Code" />
@@ -109,6 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortedArrayJiaoji" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.SortedArrayJiaoji" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="双指针和滑动窗口.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WiggleSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.WiggleSubsequence" />
       <module name="Code" />
@@ -122,26 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zougezi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFSs.Zougezi" />
-      <module name="Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DFSs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortedArrayJiaoji" />
         <item itemvalue="Application.WiggleSubsequence" />
         <item itemvalue="Application.LongestTurbulentSubarray" />
         <item itemvalue="Application.PrintOnettoN" />
         <item itemvalue="Application.NonDecreasingArray" />
-        <item itemvalue="Application.Zougezi" />
       </list>
     </recent_temporary>
   </component>
@@ -170,14 +171,7 @@
       <workItem from="1609402853732" duration="45185000" />
       <workItem from="1610585866629" duration="25118000" />
       <workItem from="1611105934136" duration="69047000" />
-      <workItem from="1612231760268" duration="24105000" />
-    </task>
-    <task id="LOCAL-00109" summary="复原IP地址">
-      <created>1611042918424</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1611042918424</updated>
+      <workItem from="1612231760268" duration="29125000" />
     </task>
     <task id="LOCAL-00110" summary="分割回文串">
       <created>1611045420487</created>
@@ -515,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612747997042</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="摆动序列">
+      <created>1612751055175</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1612751055175</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +535,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="树左下角的值" />
     <MESSAGE value="最左下角的节点" />
     <MESSAGE value="出现次数最多的子树元素和" />
     <MESSAGE value="二叉搜索树的最小绝对值" />
@@ -559,7 +559,8 @@
     <MESSAGE value="最长湍流子数组" />
     <MESSAGE value="删除节点" />
     <MESSAGE value="字符串匹配" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符串匹配" />
+    <MESSAGE value="摆动序列" />
+    <option name="LAST_COMMIT_MESSAGE" value="摆动序列" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -578,22 +579,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="210" height="333" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612747711574" />
-    <state width="1228" height="202" key="GridCell.Tab.0.bottom" timestamp="1612750834894">
+    <state width="1228" height="202" key="GridCell.Tab.0.bottom" timestamp="1612754041464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1228" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612750834894" />
-    <state width="1228" height="202" key="GridCell.Tab.0.center" timestamp="1612750834894">
+    <state width="1228" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612754041464" />
+    <state width="1228" height="202" key="GridCell.Tab.0.center" timestamp="1612754041464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1228" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612750834894" />
-    <state width="1228" height="202" key="GridCell.Tab.0.left" timestamp="1612750834894">
+    <state width="1228" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612754041464" />
+    <state width="1228" height="202" key="GridCell.Tab.0.left" timestamp="1612754041464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1228" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612750834894" />
-    <state width="1228" height="202" key="GridCell.Tab.0.right" timestamp="1612750834894">
+    <state width="1228" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612754041464" />
+    <state width="1228" height="202" key="GridCell.Tab.0.right" timestamp="1612754041464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1228" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612750834894" />
+    <state width="1228" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612754041464" />
     <state width="1212" height="330" key="GridCell.Tab.1.bottom" timestamp="1611038803528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -634,10 +635,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="449" y="179" width="1072" height="840" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1609926876561" />
-    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1612688946054">
+    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1612773943314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612688946054" />
+    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612773943314" />
     <state x="588" y="132" key="new project wizard" timestamp="1604042356167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
