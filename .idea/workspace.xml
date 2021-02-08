@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="尽可能使字符串相等">
-      <change afterPath="$PROJECT_DIR$/排序/NonDecreasingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/排序/PrintOnettoN.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="打印n位数">
+      <change afterPath="$PROJECT_DIR$/双指针和滑动窗口/LongestTurbulentSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DFSs/Zougezi.java" beforeDir="false" afterPath="$PROJECT_DIR$/DFSs/Zougezi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/WordMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/WordMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/链表/Deletnode.java" beforeDir="false" afterPath="$PROJECT_DIR$/链表/Deletnode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +71,22 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager" selected="Application.PrintOnettoN">
+  <component name="RunManager" selected="Application.LongestTurbulentSubarray">
     <configuration name="GetEqualSubstringsWithBudget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.GetEqualSubstringsWithBudget" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="双指针和滑动窗口.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestTurbulentSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.LongestTurbulentSubarray" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
@@ -91,19 +104,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PathInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFSs.PathInMatrix" />
-      <module name="Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DFSs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestTurbulentSubarray" />
         <item itemvalue="Application.PrintOnettoN" />
         <item itemvalue="Application.NonDecreasingArray" />
         <item itemvalue="Application.Zougezi" />
         <item itemvalue="Application.GetEqualSubstringsWithBudget" />
-        <item itemvalue="Application.PathInMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -172,28 +172,7 @@
       <workItem from="1609402853732" duration="45185000" />
       <workItem from="1610585866629" duration="25118000" />
       <workItem from="1611105934136" duration="69047000" />
-      <workItem from="1612231760268" duration="19394000" />
-    </task>
-    <task id="LOCAL-00103" summary="组合总数">
-      <created>1610618460397</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1610618460397</updated>
-    </task>
-    <task id="LOCAL-00104" summary="通配符匹配">
-      <created>1610693492222</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1610693492222</updated>
-    </task>
-    <task id="LOCAL-00105" summary="组合总数2">
-      <created>1610693502829</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1610693502829</updated>
+      <workItem from="1612231760268" duration="22562000" />
     </task>
     <task id="LOCAL-00106" summary="不会">
       <created>1610693517547</created>
@@ -517,7 +496,28 @@
       <option name="project" value="LOCAL" />
       <updated>1612488713013</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="非递减数组">
+      <created>1612687547430</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1612687547430</updated>
+    </task>
+    <task id="LOCAL-00153" summary="走格子">
+      <created>1612687594477</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1612687594478</updated>
+    </task>
+    <task id="LOCAL-00154" summary="打印n位数">
+      <created>1612687615145</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1612687615145</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,9 +536,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="N叉树层序打印" />
-    <MESSAGE value="左叶子和" />
-    <MESSAGE value="删除二叉树的一个节点" />
     <MESSAGE value="二叉搜索树中的众数" />
     <MESSAGE value="验证二叉树" />
     <MESSAGE value="数组中心索引" />
@@ -561,7 +558,10 @@
     <MESSAGE value="子数组最大平均数" />
     <MESSAGE value="矩阵中的路径" />
     <MESSAGE value="尽可能使字符串相等" />
-    <option name="LAST_COMMIT_MESSAGE" value="尽可能使字符串相等" />
+    <MESSAGE value="非递减数组" />
+    <MESSAGE value="走格子" />
+    <MESSAGE value="打印n位数" />
+    <option name="LAST_COMMIT_MESSAGE" value="打印n位数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -580,22 +580,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="208" height="331" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612418342660" />
-    <state width="1212" height="202" key="GridCell.Tab.0.bottom" timestamp="1612686979908">
+    <state width="1228" height="202" key="GridCell.Tab.0.bottom" timestamp="1612747588937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612686979908" />
-    <state width="1212" height="202" key="GridCell.Tab.0.center" timestamp="1612686979908">
+    <state width="1228" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612747588937" />
+    <state width="1228" height="202" key="GridCell.Tab.0.center" timestamp="1612747588937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612686979908" />
-    <state width="1212" height="202" key="GridCell.Tab.0.left" timestamp="1612686979908">
+    <state width="1228" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612747588937" />
+    <state width="1228" height="202" key="GridCell.Tab.0.left" timestamp="1612747588937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612686979908" />
-    <state width="1212" height="202" key="GridCell.Tab.0.right" timestamp="1612686979908">
+    <state width="1228" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612747588937" />
+    <state width="1228" height="202" key="GridCell.Tab.0.right" timestamp="1612747588937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1212" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612686979908" />
+    <state width="1228" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612747588937" />
     <state width="1212" height="330" key="GridCell.Tab.1.bottom" timestamp="1611038803528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -636,10 +636,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="449" y="179" width="1072" height="840" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1609926876561" />
-    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1612489411022">
+    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1612688946054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612489411022" />
+    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612688946054" />
     <state x="588" y="132" key="new project wizard" timestamp="1604042356167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
