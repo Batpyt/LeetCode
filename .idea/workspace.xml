@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="打印n位数">
-      <change afterPath="$PROJECT_DIR$/双指针和滑动窗口/LongestTurbulentSubarray.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="字符串匹配">
+      <change afterPath="$PROJECT_DIR$/双指针和滑动窗口/WiggleSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/动态规划/WordMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/WordMatching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/链表/Deletnode.java" beforeDir="false" afterPath="$PROJECT_DIR$/链表/Deletnode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,20 +69,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager" selected="Application.LongestTurbulentSubarray">
-    <configuration name="GetEqualSubstringsWithBudget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.GetEqualSubstringsWithBudget" />
-      <module name="Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="双指针和滑动窗口.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WiggleSubsequence">
     <configuration name="LongestTurbulentSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.LongestTurbulentSubarray" />
       <module name="Code" />
@@ -124,6 +109,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WiggleSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.WiggleSubsequence" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="双指针和滑动窗口.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Zougezi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DFSs.Zougezi" />
       <module name="Code" />
@@ -139,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WiggleSubsequence" />
         <item itemvalue="Application.LongestTurbulentSubarray" />
         <item itemvalue="Application.PrintOnettoN" />
         <item itemvalue="Application.NonDecreasingArray" />
         <item itemvalue="Application.Zougezi" />
-        <item itemvalue="Application.GetEqualSubstringsWithBudget" />
       </list>
     </recent_temporary>
   </component>
@@ -172,28 +170,7 @@
       <workItem from="1609402853732" duration="45185000" />
       <workItem from="1610585866629" duration="25118000" />
       <workItem from="1611105934136" duration="69047000" />
-      <workItem from="1612231760268" duration="22562000" />
-    </task>
-    <task id="LOCAL-00106" summary="不会">
-      <created>1610693517547</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1610693517547</updated>
-    </task>
-    <task id="LOCAL-00107" summary="全排列">
-      <created>1610937301803</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1610937301803</updated>
-    </task>
-    <task id="LOCAL-00108" summary="子集2">
-      <created>1610956691814</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1610956691817</updated>
+      <workItem from="1612231760268" duration="24105000" />
     </task>
     <task id="LOCAL-00109" summary="复原IP地址">
       <created>1611042918424</created>
@@ -517,7 +494,28 @@
       <option name="project" value="LOCAL" />
       <updated>1612687615145</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="最长湍流子数组">
+      <created>1612747958870</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1612747958870</updated>
+    </task>
+    <task id="LOCAL-00156" summary="删除节点">
+      <created>1612747981068</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1612747981068</updated>
+    </task>
+    <task id="LOCAL-00157" summary="字符串匹配">
+      <created>1612747997042</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1612747997042</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,9 +534,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉搜索树中的众数" />
-    <MESSAGE value="验证二叉树" />
-    <MESSAGE value="数组中心索引" />
     <MESSAGE value="树左下角的值" />
     <MESSAGE value="最左下角的节点" />
     <MESSAGE value="出现次数最多的子树元素和" />
@@ -561,7 +556,10 @@
     <MESSAGE value="非递减数组" />
     <MESSAGE value="走格子" />
     <MESSAGE value="打印n位数" />
-    <option name="LAST_COMMIT_MESSAGE" value="打印n位数" />
+    <MESSAGE value="最长湍流子数组" />
+    <MESSAGE value="删除节点" />
+    <MESSAGE value="字符串匹配" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串匹配" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -576,26 +574,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607995984371" />
-    <state width="208" height="331" key="Git.Branch.Popup" timestamp="1612418342660">
+    <state width="210" height="333" key="Git.Branch.Popup" timestamp="1612747711574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="208" height="331" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612418342660" />
-    <state width="1228" height="202" key="GridCell.Tab.0.bottom" timestamp="1612747588937">
+    <state width="210" height="333" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612747711574" />
+    <state width="1228" height="202" key="GridCell.Tab.0.bottom" timestamp="1612750834894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1228" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612747588937" />
-    <state width="1228" height="202" key="GridCell.Tab.0.center" timestamp="1612747588937">
+    <state width="1228" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612750834894" />
+    <state width="1228" height="202" key="GridCell.Tab.0.center" timestamp="1612750834894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1228" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612747588937" />
-    <state width="1228" height="202" key="GridCell.Tab.0.left" timestamp="1612747588937">
+    <state width="1228" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612750834894" />
+    <state width="1228" height="202" key="GridCell.Tab.0.left" timestamp="1612750834894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1228" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612747588937" />
-    <state width="1228" height="202" key="GridCell.Tab.0.right" timestamp="1612747588937">
+    <state width="1228" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612750834894" />
+    <state width="1228" height="202" key="GridCell.Tab.0.right" timestamp="1612750834894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1228" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612747588937" />
+    <state width="1228" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612750834894" />
     <state width="1212" height="330" key="GridCell.Tab.1.bottom" timestamp="1611038803528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
