@@ -51,4 +51,25 @@ public class Fanzhuanlianbiao {
 		return pre;
 	}
 
+
+	public ListNode reversL(ListNode head) {
+		ListNode pre = null, cur = head, next = null;
+		/*
+		null -> 1 -> 2 -> 3
+		pre    cur   next
+		 */
+		while(cur != null) {
+			//注意变量转移的先后顺序
+			//先赋值next为当前节点的next，再将cur.next指向pre
+			next = cur.next;
+			cur.next = pre;
+
+			//下面为下一循环要用到的变量
+			//当前的cur作为下一循环的pre，之前赋值的next作为下一循环的cur
+			pre = cur;
+			cur = next;
+		}
+		return pre;
+	}
+
 }
