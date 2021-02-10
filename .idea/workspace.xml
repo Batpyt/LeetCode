@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="摆动序列">
-      <change afterPath="$PROJECT_DIR$/双指针和滑动窗口/SortedArrayJiaoji.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="翻转链表">
+      <change afterPath="$PROJECT_DIR$/双指针和滑动窗口/PermutationInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/双指针和滑动窗口/SubArrayswithKDifferentIntegers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/链表/Fanzhuanlianbiao.java" beforeDir="false" afterPath="$PROJECT_DIR$/链表/Fanzhuanlianbiao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager" selected="Application.SortedArrayJiaoji">
+  <component name="RunManager" selected="Application.PermutationInString">
     <configuration name="LongestTurbulentSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.LongestTurbulentSubarray" />
       <module name="Code" />
@@ -84,25 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonDecreasingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="排序.NonDecreasingArray" />
+    <configuration name="PermutationInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.PermutationInString" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintOnettoN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="排序.PrintOnettoN" />
-      <module name="Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="排序.*" />
+          <option name="PATTERN" value="双指针和滑动窗口.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,6 +99,19 @@
     </configuration>
     <configuration name="SortedArrayJiaoji" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.SortedArrayJiaoji" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="双指针和滑动窗口.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubArrayswithKDifferentIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.SubArrayswithKDifferentIntegers" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PermutationInString" />
+        <item itemvalue="Application.SubArrayswithKDifferentIntegers" />
         <item itemvalue="Application.SortedArrayJiaoji" />
         <item itemvalue="Application.WiggleSubsequence" />
         <item itemvalue="Application.LongestTurbulentSubarray" />
-        <item itemvalue="Application.PrintOnettoN" />
-        <item itemvalue="Application.NonDecreasingArray" />
       </list>
     </recent_temporary>
   </component>
@@ -171,21 +171,7 @@
       <workItem from="1609402853732" duration="45185000" />
       <workItem from="1610585866629" duration="25118000" />
       <workItem from="1611105934136" duration="69047000" />
-      <workItem from="1612231760268" duration="29125000" />
-    </task>
-    <task id="LOCAL-00110" summary="分割回文串">
-      <created>1611045420487</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1611045420489</updated>
-    </task>
-    <task id="LOCAL-00111" summary="三个数的最大乘积">
-      <created>1611124652319</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1611124652320</updated>
+      <workItem from="1612231760268" duration="34467000" />
     </task>
     <task id="LOCAL-00112" summary="不同的二叉搜索树">
       <created>1611126586212</created>
@@ -516,7 +502,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612751055175</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="排序数组的交集">
+      <created>1612775442378</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1612775442378</updated>
+    </task>
+    <task id="LOCAL-00160" summary="翻转链表">
+      <created>1612775458541</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1612775458542</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,8 +535,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="最左下角的节点" />
-    <MESSAGE value="出现次数最多的子树元素和" />
     <MESSAGE value="二叉搜索树的最小绝对值" />
     <MESSAGE value="每层的最大值" />
     <MESSAGE value="二叉树直径" />
@@ -560,7 +558,9 @@
     <MESSAGE value="删除节点" />
     <MESSAGE value="字符串匹配" />
     <MESSAGE value="摆动序列" />
-    <option name="LAST_COMMIT_MESSAGE" value="摆动序列" />
+    <MESSAGE value="排序数组的交集" />
+    <MESSAGE value="翻转链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="翻转链表" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -579,22 +579,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="210" height="333" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612747711574" />
-    <state width="1228" height="202" key="GridCell.Tab.0.bottom" timestamp="1612754041464">
+    <state width="1199" height="202" key="GridCell.Tab.0.bottom" timestamp="1612921243708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1228" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612754041464" />
-    <state width="1228" height="202" key="GridCell.Tab.0.center" timestamp="1612754041464">
+    <state width="1199" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612921243708" />
+    <state width="1199" height="202" key="GridCell.Tab.0.center" timestamp="1612921243708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1228" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612754041464" />
-    <state width="1228" height="202" key="GridCell.Tab.0.left" timestamp="1612754041464">
+    <state width="1199" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612921243708" />
+    <state width="1199" height="202" key="GridCell.Tab.0.left" timestamp="1612921243708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1228" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612754041464" />
-    <state width="1228" height="202" key="GridCell.Tab.0.right" timestamp="1612754041464">
+    <state width="1199" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612921243708" />
+    <state width="1199" height="202" key="GridCell.Tab.0.right" timestamp="1612921243708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1228" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612754041464" />
+    <state width="1199" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612921243708" />
     <state width="1212" height="330" key="GridCell.Tab.1.bottom" timestamp="1611038803528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -627,10 +627,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610937249619" />
-    <state x="780" y="96" width="1039" height="840" key="dock-window-1" timestamp="1609917089407">
+    <state x="780" y="96" width="1039" height="840" key="dock-window-1" timestamp="1612833941518">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="780" y="96" width="1039" height="840" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1609917089407" />
+    <state x="780" y="96" width="1039" height="840" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1612833941518" />
     <state x="449" y="179" width="1072" height="840" key="dock-window-2" timestamp="1609926876561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
