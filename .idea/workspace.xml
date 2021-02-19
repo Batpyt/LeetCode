@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="K 个不同整数的子数组">
-      <change afterPath="$PROJECT_DIR$/双指针和滑动窗口/MaxOnes.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="最大连续1的个数">
+      <change afterPath="$PROJECT_DIR$/栈/MinStacktry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/栈/CheckStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/栈/CheckStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectId" id="1gI68b5UDqBC1AgawNGq6xPPRjN" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -171,14 +173,7 @@
       <workItem from="1610585866629" duration="25118000" />
       <workItem from="1611105934136" duration="69047000" />
       <workItem from="1612231760268" duration="35281000" />
-      <workItem from="1613610139933" duration="4771000" />
-    </task>
-    <task id="LOCAL-00114" summary="合并排序链表">
-      <created>1611218938034</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1611218938034</updated>
+      <workItem from="1613610139933" duration="7168000" />
     </task>
     <task id="LOCAL-00115" summary="二叉树层序遍历dfs">
       <created>1611222315356</created>
@@ -516,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612921444287</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="最大连续1的个数">
+      <created>1613699607465</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1613699607466</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +537,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉树直径" />
     <MESSAGE value="另一个树的子树" />
     <MESSAGE value="二叉树构建字符串" />
     <MESSAGE value="二叉树增加一行" />
@@ -560,7 +561,8 @@
     <MESSAGE value="翻转链表" />
     <MESSAGE value="字符串的排列" />
     <MESSAGE value="K 个不同整数的子数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="K 个不同整数的子数组" />
+    <MESSAGE value="最大连续1的个数" />
+    <option name="LAST_COMMIT_MESSAGE" value="最大连续1的个数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -635,10 +637,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="449" y="179" width="1072" height="840" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1609926876561" />
-    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1613639944171">
+    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1613722611148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613639944171" />
+    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613722611148" />
     <state x="910" y="244" key="run.anything.popup" timestamp="1609723659045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
