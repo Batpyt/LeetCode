@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="栈的压入弹出">
-      <change afterPath="$PROJECT_DIR$/哈希/DefreeofArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="数组的度">
+      <change afterPath="$PROJECT_DIR$/哈希/DegreeofArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,14 +171,7 @@
       <workItem from="1610585866629" duration="25118000" />
       <workItem from="1611105934136" duration="69047000" />
       <workItem from="1612231760268" duration="35281000" />
-      <workItem from="1613610139933" duration="10057000" />
-    </task>
-    <task id="LOCAL-00117" summary="按行打印-倒序">
-      <created>1611300185984</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1611300185984</updated>
+      <workItem from="1613610139933" duration="10773000" />
     </task>
     <task id="LOCAL-00118" summary="二叉树的右视图">
       <created>1611541860241</created>
@@ -517,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613722936338</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="数组的度">
+      <created>1613784089100</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1613784089100</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +535,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉树增加一行" />
     <MESSAGE value="合并两个二叉树" />
     <MESSAGE value="公平糖果交换" />
     <MESSAGE value="两数之和" />
@@ -561,7 +559,8 @@
     <MESSAGE value="最大连续1的个数" />
     <MESSAGE value="最小栈" />
     <MESSAGE value="栈的压入弹出" />
-    <option name="LAST_COMMIT_MESSAGE" value="栈的压入弹出" />
+    <MESSAGE value="数组的度" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组的度" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -620,10 +619,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="182" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611906205024" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1612921451298">
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1613784104784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612921451298" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613784104784" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610937249619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
