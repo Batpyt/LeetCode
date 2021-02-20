@@ -24,6 +24,12 @@ public class QuickSort {
 
 	}
 
+	/*
+	5 1 2 3 4 6 7
+	temp = 5
+	4 1 2 3 4 6 7
+	4 1 2 3 6 5 7
+	 */
 	private static int getIndex(int[] arr, int low, int high) {
 		// 基准数据
 		int tmp = arr[low];
@@ -34,7 +40,7 @@ public class QuickSort {
 			}
 			// 如果队尾元素小于tmp了,需要将其赋值给low
 			arr[low] = arr[high];
-			// 当队首元素小于等于tmp时,向前挪动low指针
+			// 当队首元素小于等于tmp时,向后挪动low指针
 			while (low < high && arr[low] <= tmp) {
 				low++;
 			}
