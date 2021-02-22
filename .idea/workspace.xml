@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="检验密码是否标准">
-      <change afterPath="$PROJECT_DIR$/牛客机试/DeleteLeastChar.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="删除最少出现字符">
+      <change afterPath="$PROJECT_DIR$/牛客机试/SortString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/动态规划/LIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/LIS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager" selected="Application.LIS">
+  <component name="RunManager" selected="Application.SortString">
     <configuration name="DeleteLeastChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="牛客机试.DeleteLeastChar" />
       <module name="Code" />
@@ -111,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="牛客机试.PasswordCheck" />
+    <configuration name="LISAndLDS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="牛客机试.LISAndLDS" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
@@ -124,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zuobiao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="牛客机试.Zuobiao" />
+    <configuration name="SortString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="牛客机试.SortString" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortString" />
+        <item itemvalue="Application.LISAndLDS" />
         <item itemvalue="Application.LIS" />
         <item itemvalue="Application.DeleteLeastChar" />
         <item itemvalue="Application.GetPassword" />
-        <item itemvalue="Application.PasswordCheck" />
-        <item itemvalue="Application.Zuobiao" />
       </list>
     </recent_temporary>
   </component>
@@ -174,21 +173,7 @@
       <workItem from="1611105934136" duration="69047000" />
       <workItem from="1612231760268" duration="35281000" />
       <workItem from="1613610139933" duration="15710000" />
-      <workItem from="1613956223685" duration="12232000" />
-    </task>
-    <task id="LOCAL-00125" summary="环形打印">
-      <created>1611715492979</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1611715492979</updated>
-    </task>
-    <task id="LOCAL-00126" summary="N叉树层序打印">
-      <created>1611717657837</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1611717657837</updated>
+      <workItem from="1613956223685" duration="13774000" />
     </task>
     <task id="LOCAL-00127" summary="左叶子和">
       <created>1611717684107</created>
@@ -519,7 +504,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613981309502</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="最长递增子序列">
+      <created>1613985872182</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1613985872182</updated>
+    </task>
+    <task id="LOCAL-00175" summary="删除最少出现字符">
+      <created>1613985886790</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1613985886790</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,8 +537,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="滑动窗口中位数" />
-    <MESSAGE value="子数组最大平均数" />
     <MESSAGE value="矩阵中的路径" />
     <MESSAGE value="尽可能使字符串相等" />
     <MESSAGE value="非递减数组" />
@@ -563,13 +560,19 @@
     <MESSAGE value="坐标移动" />
     <MESSAGE value="破解密码-九宫格" />
     <MESSAGE value="检验密码是否标准" />
-    <option name="LAST_COMMIT_MESSAGE" value="检验密码是否标准" />
+    <MESSAGE value="最长递增子序列" />
+    <MESSAGE value="删除最少出现字符" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除最少出现字符" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="827" y="54" key="#Java/0.0.1920.1040@0.0.1920.1040" timestamp="1610007853919" />
+    <state x="1133" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1613987092529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1133" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613987092529" />
     <state width="422" height="466" key="DebuggerActiveHint" timestamp="1610525922891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -582,22 +585,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="216" height="339" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613981321910" />
-    <state width="1101" height="202" key="GridCell.Tab.0.bottom" timestamp="1613985627036">
+    <state width="1101" height="202" key="GridCell.Tab.0.bottom" timestamp="1613987231158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1101" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613985627036" />
-    <state width="1101" height="202" key="GridCell.Tab.0.center" timestamp="1613985627036">
+    <state width="1101" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613987231158" />
+    <state width="1101" height="202" key="GridCell.Tab.0.center" timestamp="1613987231158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1101" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613985627036" />
-    <state width="1101" height="202" key="GridCell.Tab.0.left" timestamp="1613985627035">
+    <state width="1101" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613987231158" />
+    <state width="1101" height="202" key="GridCell.Tab.0.left" timestamp="1613987231158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1101" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613985627035" />
-    <state width="1101" height="202" key="GridCell.Tab.0.right" timestamp="1613985627036">
+    <state width="1101" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613987231158" />
+    <state width="1101" height="202" key="GridCell.Tab.0.right" timestamp="1613987231158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1101" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613985627036" />
+    <state width="1101" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613987231158" />
     <state width="1199" height="330" key="GridCell.Tab.1.bottom" timestamp="1613960788781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
