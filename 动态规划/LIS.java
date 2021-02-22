@@ -23,6 +23,10 @@ public class LIS {
         int[] nums = {10,9,2,5,3,7,101,18};
         int[] n = {2,3,7,21};
         System.out.println(lengthOfLIS(nums));
+        System.out.println(LLIISS(nums));
+
+        int[] de = {6, 5, 4, 7, 5, 3, 2, 1};
+        System.out.println(lengthofDecrease(de));
     }
     public static int lengthOfLIS(int[] nums) {
         //dp数组
@@ -34,6 +38,8 @@ public class LIS {
             //i和j和m找的是在dp中num的位置
             int i = 0, j = res;
             while(i < j) {
+                //2 3 7
+                //5
                 int m = (i + j) / 2;
                 if(dp[m] < num) i = m + 1;
                 else j = m;
@@ -62,6 +68,40 @@ public class LIS {
             if(res == j) res++;
         }
         return res;
+    }
+
+    // 6 5 4 7 5 3 2 1
+    public static int lengthofDecrease(int[] nums) {
+        int[] dp = new int[nums.length];
+        int res = 0;
+        for(int num : nums) {
+            int left = 0, right = res;
+            while(left < right) {
+                //7 4 1
+                //5
+                int m = (left + right) / 2;
+                if(dp[m] > num) left = m + 1;
+                else right = m;
+            }
+            dp[left] = num;
+            if(res == right) res++;
+        }
+        return res;
+    }
+
+    public static int LLIISS(int[] nums) {
+        int dp[] = new int[nums.length];
+        int max = Integer.MIN_VALUE;
+        for(int i = 0; i < nums.length; i++) {
+            dp[i] = 1;
+            for(int j = 0; j < i; j++) {
+                if(nums[i] < nums[j]) {
+                    dp[i] = Math.max(dp[i], dp[j] + 1);
+                }
+                max = Math.max(max, dp[i]);
+            }
+        }
+        return max;
     }
 
 }

@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="坐标移动">
-      <change afterPath="$PROJECT_DIR$/牛客机试/GetPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/牛客机试/PasswordCheck.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="检验密码是否标准">
+      <change afterPath="$PROJECT_DIR$/牛客机试/DeleteLeastChar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/LIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/LIS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +71,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager" selected="Application.GetPassword">
-    <configuration name="DegreeofArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="哈希.DegreeofArray" />
+  <component name="RunManager" selected="Application.LIS">
+    <configuration name="DeleteLeastChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="牛客机试.DeleteLeastChar" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="哈希.*" />
+          <option name="PATTERN" value="牛客机试.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="牛客机试.PasswordCheck" />
+    <configuration name="LIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="动态规划.LIS" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="牛客机试.*" />
+          <option name="PATTERN" value="动态规划.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="牛客机试.ReverseSentence" />
+    <configuration name="PasswordCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="牛客机试.PasswordCheck" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LIS" />
+        <item itemvalue="Application.DeleteLeastChar" />
         <item itemvalue="Application.GetPassword" />
         <item itemvalue="Application.PasswordCheck" />
         <item itemvalue="Application.Zuobiao" />
-        <item itemvalue="Application.ReverseSentence" />
-        <item itemvalue="Application.DegreeofArray" />
       </list>
     </recent_temporary>
   </component>
@@ -174,21 +174,7 @@
       <workItem from="1611105934136" duration="69047000" />
       <workItem from="1612231760268" duration="35281000" />
       <workItem from="1613610139933" duration="15710000" />
-      <workItem from="1613956223685" duration="7852000" />
-    </task>
-    <task id="LOCAL-00123" summary="打家劫舍-数组">
-      <created>1611649601426</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1611649601430</updated>
-    </task>
-    <task id="LOCAL-00124" summary="打家劫舍-数组">
-      <created>1611651773905</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1611651773905</updated>
+      <workItem from="1613956223685" duration="12232000" />
     </task>
     <task id="LOCAL-00125" summary="环形打印">
       <created>1611715492979</created>
@@ -519,7 +505,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613960868480</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="破解密码-九宫格">
+      <created>1613981295848</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1613981295850</updated>
+    </task>
+    <task id="LOCAL-00173" summary="检验密码是否标准">
+      <created>1613981309499</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1613981309502</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,8 +538,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="替换后的最长重复字符" />
-    <MESSAGE value="二维数组中的查找" />
     <MESSAGE value="滑动窗口中位数" />
     <MESSAGE value="子数组最大平均数" />
     <MESSAGE value="矩阵中的路径" />
@@ -563,7 +561,9 @@
     <MESSAGE value="快排" />
     <MESSAGE value="句子反转" />
     <MESSAGE value="坐标移动" />
-    <option name="LAST_COMMIT_MESSAGE" value="坐标移动" />
+    <MESSAGE value="破解密码-九宫格" />
+    <MESSAGE value="检验密码是否标准" />
+    <option name="LAST_COMMIT_MESSAGE" value="检验密码是否标准" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -578,26 +578,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607995984371" />
-    <state width="214" height="337" key="Git.Branch.Popup" timestamp="1613784662245">
+    <state width="216" height="339" key="Git.Branch.Popup" timestamp="1613981321910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="214" height="337" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613784662245" />
-    <state width="1140" height="202" key="GridCell.Tab.0.bottom" timestamp="1613981231068">
+    <state width="216" height="339" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613981321910" />
+    <state width="1101" height="202" key="GridCell.Tab.0.bottom" timestamp="1613985627036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1140" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613981231068" />
-    <state width="1140" height="202" key="GridCell.Tab.0.center" timestamp="1613981231068">
+    <state width="1101" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613985627036" />
+    <state width="1101" height="202" key="GridCell.Tab.0.center" timestamp="1613985627036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1140" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613981231068" />
-    <state width="1140" height="202" key="GridCell.Tab.0.left" timestamp="1613981231068">
+    <state width="1101" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613985627036" />
+    <state width="1101" height="202" key="GridCell.Tab.0.left" timestamp="1613985627035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1140" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613981231068" />
-    <state width="1140" height="202" key="GridCell.Tab.0.right" timestamp="1613981231068">
+    <state width="1101" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613985627035" />
+    <state width="1101" height="202" key="GridCell.Tab.0.right" timestamp="1613985627036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1140" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613981231068" />
+    <state width="1101" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613985627036" />
     <state width="1199" height="330" key="GridCell.Tab.1.bottom" timestamp="1613960788781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -622,10 +622,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="182" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611906205024" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1613788441164">
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1613981322998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613788441164" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613981322998" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610937249619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -638,10 +638,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="449" y="179" width="1072" height="840" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1609926876561" />
-    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1613724235135">
+    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1613981380234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613724235135" />
+    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613981380234" />
     <state x="910" y="244" key="run.anything.popup" timestamp="1609723659045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
