@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="句子反转">
-      <change afterPath="$PROJECT_DIR$/牛客机试/Zuobiao.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="坐标移动">
+      <change afterPath="$PROJECT_DIR$/牛客机试/GetPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/牛客机试/PasswordCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +71,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager" selected="Application.Zuobiao">
+  <component name="RunManager" selected="Application.GetPassword">
     <configuration name="DegreeofArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="哈希.DegreeofArray" />
       <module name="Code" />
@@ -84,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.MaxOnes" />
+    <configuration name="GetPassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="牛客机试.GetPassword" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="双指针和滑动窗口.*" />
+          <option name="PATTERN" value="牛客机试.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.PermutationInString" />
+    <configuration name="PasswordCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="牛客机试.PasswordCheck" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="双指针和滑动窗口.*" />
+          <option name="PATTERN" value="牛客机试.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetPassword" />
+        <item itemvalue="Application.PasswordCheck" />
         <item itemvalue="Application.Zuobiao" />
         <item itemvalue="Application.ReverseSentence" />
         <item itemvalue="Application.DegreeofArray" />
-        <item itemvalue="Application.MaxOnes" />
-        <item itemvalue="Application.PermutationInString" />
       </list>
     </recent_temporary>
   </component>
@@ -173,14 +174,7 @@
       <workItem from="1611105934136" duration="69047000" />
       <workItem from="1612231760268" duration="35281000" />
       <workItem from="1613610139933" duration="15710000" />
-      <workItem from="1613956223685" duration="2917000" />
-    </task>
-    <task id="LOCAL-00122" summary="打家劫舍">
-      <created>1611648509710</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1611648509711</updated>
+      <workItem from="1613956223685" duration="7852000" />
     </task>
     <task id="LOCAL-00123" summary="打家劫舍-数组">
       <created>1611649601426</created>
@@ -518,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613960036221</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="坐标移动">
+      <created>1613960868479</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1613960868480</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +538,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="最大二叉树" />
     <MESSAGE value="替换后的最长重复字符" />
     <MESSAGE value="二维数组中的查找" />
     <MESSAGE value="滑动窗口中位数" />
@@ -562,7 +562,8 @@
     <MESSAGE value="最大路径和" />
     <MESSAGE value="快排" />
     <MESSAGE value="句子反转" />
-    <option name="LAST_COMMIT_MESSAGE" value="句子反转" />
+    <MESSAGE value="坐标移动" />
+    <option name="LAST_COMMIT_MESSAGE" value="坐标移动" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -581,22 +582,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="214" height="337" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613784662245" />
-    <state width="1199" height="202" key="GridCell.Tab.0.bottom" timestamp="1613960799043">
+    <state width="1140" height="202" key="GridCell.Tab.0.bottom" timestamp="1613981231068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1199" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613960799043" />
-    <state width="1199" height="202" key="GridCell.Tab.0.center" timestamp="1613960799043">
+    <state width="1140" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613981231068" />
+    <state width="1140" height="202" key="GridCell.Tab.0.center" timestamp="1613981231068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1199" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613960799043" />
-    <state width="1199" height="202" key="GridCell.Tab.0.left" timestamp="1613960799043">
+    <state width="1140" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613981231068" />
+    <state width="1140" height="202" key="GridCell.Tab.0.left" timestamp="1613981231068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1199" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613960799043" />
-    <state width="1199" height="202" key="GridCell.Tab.0.right" timestamp="1613960799043">
+    <state width="1140" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613981231068" />
+    <state width="1140" height="202" key="GridCell.Tab.0.right" timestamp="1613981231068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1199" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613960799043" />
+    <state width="1140" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613981231068" />
     <state width="1199" height="330" key="GridCell.Tab.1.bottom" timestamp="1613960788781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
