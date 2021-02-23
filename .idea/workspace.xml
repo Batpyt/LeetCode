@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="删除最少出现字符">
-      <change afterPath="$PROJECT_DIR$/牛客机试/SortString.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="排序字符串">
+      <change afterPath="$PROJECT_DIR$/双指针和滑动窗口/AngryBookStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/牛客机试/SortString.java" beforeDir="false" afterPath="$PROJECT_DIR$/牛客机试/SortString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +71,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager" selected="Application.SortString">
-    <configuration name="DeleteLeastChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="牛客机试.DeleteLeastChar" />
+  <component name="RunManager" selected="Application.AngryBookStore">
+    <configuration name="AngryBookStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.AngryBookStore" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="牛客机试.*" />
+          <option name="PATTERN" value="双指针和滑动窗口.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetPassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="牛客机试.GetPassword" />
+    <configuration name="DeleteLeastChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="牛客机试.DeleteLeastChar" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AngryBookStore" />
         <item itemvalue="Application.SortString" />
         <item itemvalue="Application.LISAndLDS" />
         <item itemvalue="Application.LIS" />
         <item itemvalue="Application.DeleteLeastChar" />
-        <item itemvalue="Application.GetPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -585,22 +586,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="216" height="339" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613981321910" />
-    <state width="1101" height="202" key="GridCell.Tab.0.bottom" timestamp="1613987231158">
+    <state width="1101" height="202" key="GridCell.Tab.0.bottom" timestamp="1614043036036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1101" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613987231158" />
-    <state width="1101" height="202" key="GridCell.Tab.0.center" timestamp="1613987231158">
+    <state width="1101" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614043036036" />
+    <state width="1101" height="202" key="GridCell.Tab.0.center" timestamp="1614043036036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1101" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613987231158" />
-    <state width="1101" height="202" key="GridCell.Tab.0.left" timestamp="1613987231158">
+    <state width="1101" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614043036036" />
+    <state width="1101" height="202" key="GridCell.Tab.0.left" timestamp="1614043036036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1101" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613987231158" />
-    <state width="1101" height="202" key="GridCell.Tab.0.right" timestamp="1613987231158">
+    <state width="1101" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614043036036" />
+    <state width="1101" height="202" key="GridCell.Tab.0.right" timestamp="1614043036036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1101" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613987231158" />
+    <state width="1101" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614043036036" />
     <state width="1199" height="330" key="GridCell.Tab.1.bottom" timestamp="1613960788781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
