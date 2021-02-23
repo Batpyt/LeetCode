@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="排序字符串">
-      <change afterPath="$PROJECT_DIR$/双指针和滑动窗口/AngryBookStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/牛客机试/SortString.java" beforeDir="false" afterPath="$PROJECT_DIR$/牛客机试/SortString.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="生气的书店老板">
+      <change afterPath="$PROJECT_DIR$/牛客机试/SnakePrint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,13 +173,6 @@
       <workItem from="1612231760268" duration="35281000" />
       <workItem from="1613610139933" duration="15710000" />
       <workItem from="1613956223685" duration="13774000" />
-    </task>
-    <task id="LOCAL-00127" summary="左叶子和">
-      <created>1611717684107</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1611717684109</updated>
     </task>
     <task id="LOCAL-00128" summary="删除二叉树的一个节点">
       <created>1611736610856</created>
@@ -519,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613985886790</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="生气的书店老板">
+      <created>1614043161198</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1614043161199</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +536,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="矩阵中的路径" />
     <MESSAGE value="尽可能使字符串相等" />
     <MESSAGE value="非递减数组" />
     <MESSAGE value="走格子" />
@@ -563,7 +560,8 @@
     <MESSAGE value="检验密码是否标准" />
     <MESSAGE value="最长递增子序列" />
     <MESSAGE value="删除最少出现字符" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除最少出现字符" />
+    <MESSAGE value="生气的书店老板" />
+    <option name="LAST_COMMIT_MESSAGE" value="生气的书店老板" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
