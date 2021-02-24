@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="兔子繁殖">
-      <change afterPath="$PROJECT_DIR$/牛客机试/Ball.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="字典">
       <change afterPath="$PROJECT_DIR$/牛客机试/Mizzu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/哈希/Incr.java" beforeDir="false" afterPath="$PROJECT_DIR$/哈希/Incr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,20 +173,6 @@
       <workItem from="1612231760268" duration="35281000" />
       <workItem from="1613610139933" duration="15710000" />
       <workItem from="1613956223685" duration="13774000" />
-    </task>
-    <task id="LOCAL-00130" summary="验证二叉树">
-      <created>1611738652072</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1611738652072</updated>
-    </task>
-    <task id="LOCAL-00131" summary="数组中心索引">
-      <created>1611798530825</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1611798530862</updated>
     </task>
     <task id="LOCAL-00132" summary="树左下角的值">
       <created>1611828180932</created>
@@ -520,7 +503,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614046105684</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="球反弹">
+      <created>1614152465072</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1614152465072</updated>
+    </task>
+    <task id="LOCAL-00180" summary="字典">
+      <created>1614152488195</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1614152488195</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,8 +536,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="走格子" />
-    <MESSAGE value="打印n位数" />
     <MESSAGE value="最长湍流子数组" />
     <MESSAGE value="删除节点" />
     <MESSAGE value="字符串匹配" />
@@ -564,7 +559,9 @@
     <MESSAGE value="生气的书店老板" />
     <MESSAGE value="蛇形打印" />
     <MESSAGE value="兔子繁殖" />
-    <option name="LAST_COMMIT_MESSAGE" value="兔子繁殖" />
+    <MESSAGE value="球反弹" />
+    <MESSAGE value="字典" />
+    <option name="LAST_COMMIT_MESSAGE" value="字典" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
