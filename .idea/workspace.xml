@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="走迷宫">
-      <change afterPath="$PROJECT_DIR$/牛客机试/PrettyWord.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="字符出现次数打分">
+      <change afterPath="$PROJECT_DIR$/DFSs/Strings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,26 +70,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager" selected="Application.PrettyWord">
+  <component name="RunManager" selected="Application.Strings">
     <configuration name="AngryBookStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.AngryBookStore" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="双指针和滑动窗口.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LISAndLDS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="牛客机试.LISAndLDS" />
-      <module name="Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="牛客机试.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,13 +123,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFSs.Strings" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DFSs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Strings" />
         <item itemvalue="Application.PrettyWord" />
         <item itemvalue="Application.RabbitBorn" />
         <item itemvalue="Application.AngryBookStore" />
         <item itemvalue="Application.SortString" />
-        <item itemvalue="Application.LISAndLDS" />
       </list>
     </recent_temporary>
   </component>
@@ -174,13 +174,6 @@
       <workItem from="1612231760268" duration="35281000" />
       <workItem from="1613610139933" duration="15710000" />
       <workItem from="1613956223685" duration="13774000" />
-    </task>
-    <task id="LOCAL-00134" summary="最左下角的节点">
-      <created>1611886334981</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1611886334982</updated>
     </task>
     <task id="LOCAL-00135" summary="出现次数最多的子树元素和">
       <created>1611886388207</created>
@@ -518,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614152543112</updated>
     </task>
-    <option name="localTasksCounter" value="183" />
+    <task id="LOCAL-00183" summary="字符出现次数打分">
+      <created>1614154540352</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1614154540352</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +537,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="删除节点" />
     <MESSAGE value="字符串匹配" />
     <MESSAGE value="摆动序列" />
     <MESSAGE value="排序数组的交集" />
@@ -562,7 +561,8 @@
     <MESSAGE value="球反弹" />
     <MESSAGE value="字典" />
     <MESSAGE value="走迷宫" />
-    <option name="LAST_COMMIT_MESSAGE" value="走迷宫" />
+    <MESSAGE value="字符出现次数打分" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符出现次数打分" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -585,22 +585,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="218" height="341" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614152420954" />
-    <state width="1102" height="202" key="GridCell.Tab.0.bottom" timestamp="1614154048159">
+    <state width="1275" height="202" key="GridCell.Tab.0.bottom" timestamp="1614155287496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1102" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614154048159" />
-    <state width="1102" height="202" key="GridCell.Tab.0.center" timestamp="1614154048159">
+    <state width="1275" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614155287496" />
+    <state width="1275" height="202" key="GridCell.Tab.0.center" timestamp="1614155287496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1102" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614154048159" />
-    <state width="1102" height="202" key="GridCell.Tab.0.left" timestamp="1614154048159">
+    <state width="1275" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614155287496" />
+    <state width="1275" height="202" key="GridCell.Tab.0.left" timestamp="1614155287496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1102" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614154048159" />
-    <state width="1102" height="202" key="GridCell.Tab.0.right" timestamp="1614154048159">
+    <state width="1275" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614155287496" />
+    <state width="1275" height="202" key="GridCell.Tab.0.right" timestamp="1614155287496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1102" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614154048159" />
+    <state width="1275" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614155287496" />
     <state width="1199" height="330" key="GridCell.Tab.1.bottom" timestamp="1613960788781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -641,10 +641,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="449" y="179" width="1072" height="840" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1609926876561" />
-    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1614062154407">
+    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1614154546162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614062154407" />
+    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614154546162" />
     <state x="910" y="244" key="run.anything.popup" timestamp="1609723659045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
