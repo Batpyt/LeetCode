@@ -14,20 +14,14 @@ public class Incr {
 
     public int Incr(String str) {
         synchronized (this) {
-            try {
-                if(map.containsKey(str)) {
-                    map.put(str, map.get(str) + 1);
-                    return map.get(str);
-                }
-                else {
-                    map.put(str, 1);
-                    return 1;
-                }
-            } catch (Exception e) {
-                return -1;
+            if(map.containsKey(str)) {
+                map.put(str, map.get(str) + 1);
+                return map.get(str);
+            }
+            else {
+                map.put(str, 1);
+                return 1;
             }
         }
-
-
     }
 }
