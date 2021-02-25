@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="字符出现次数打分">
-      <change afterPath="$PROJECT_DIR$/DFSs/Strings.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="字符串排列">
+      <change afterPath="$PROJECT_DIR$/不知名类型/TransposeMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager" selected="Application.Strings">
+  <component name="RunManager" selected="Application.TransposeMatrix">
     <configuration name="AngryBookStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.AngryBookStore" />
       <module name="Code" />
@@ -110,19 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="牛客机试.SortString" />
-      <module name="Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="牛客机试.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DFSs.Strings" />
       <module name="Code" />
@@ -136,13 +123,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransposeMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="不知名类型.TransposeMatrix" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="不知名类型.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransposeMatrix" />
         <item itemvalue="Application.Strings" />
         <item itemvalue="Application.PrettyWord" />
         <item itemvalue="Application.RabbitBorn" />
         <item itemvalue="Application.AngryBookStore" />
-        <item itemvalue="Application.SortString" />
       </list>
     </recent_temporary>
   </component>
@@ -174,13 +174,6 @@
       <workItem from="1612231760268" duration="35281000" />
       <workItem from="1613610139933" duration="15710000" />
       <workItem from="1613956223685" duration="13774000" />
-    </task>
-    <task id="LOCAL-00135" summary="出现次数最多的子树元素和">
-      <created>1611886388207</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1611886388207</updated>
     </task>
     <task id="LOCAL-00136" summary="二叉搜索树的最小绝对值">
       <created>1611888646799</created>
@@ -518,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614154540352</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="字符串排列">
+      <created>1614156760786</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1614156760786</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +537,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="字符串匹配" />
     <MESSAGE value="摆动序列" />
     <MESSAGE value="排序数组的交集" />
     <MESSAGE value="翻转链表" />
@@ -562,7 +561,8 @@
     <MESSAGE value="字典" />
     <MESSAGE value="走迷宫" />
     <MESSAGE value="字符出现次数打分" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符出现次数打分" />
+    <MESSAGE value="字符串排列" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串排列" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -573,50 +573,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1133" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613987092529" />
-    <state width="422" height="466" key="DebuggerActiveHint" timestamp="1610525922891">
+    <state width="422" height="466" key="DebuggerActiveHint" timestamp="1614160752996">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="422" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1610525922891" />
+    <state width="422" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1614160752996" />
     <state x="368" y="85" key="DiffContextDialog" timestamp="1607995984371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607995984371" />
-    <state width="218" height="341" key="Git.Branch.Popup" timestamp="1614152420954">
+    <state width="220" height="343" key="Git.Branch.Popup" timestamp="1614159106173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="218" height="341" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614152420954" />
-    <state width="1275" height="202" key="GridCell.Tab.0.bottom" timestamp="1614155287496">
+    <state width="220" height="343" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614159106173" />
+    <state width="1275" height="200" key="GridCell.Tab.0.bottom" timestamp="1614215955505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614155287496" />
-    <state width="1275" height="202" key="GridCell.Tab.0.center" timestamp="1614155287496">
+    <state width="1275" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614215955505" />
+    <state width="1275" height="200" key="GridCell.Tab.0.center" timestamp="1614215955505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614155287496" />
-    <state width="1275" height="202" key="GridCell.Tab.0.left" timestamp="1614155287496">
+    <state width="1275" height="200" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614215955505" />
+    <state width="1275" height="200" key="GridCell.Tab.0.left" timestamp="1614215955505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614155287496" />
-    <state width="1275" height="202" key="GridCell.Tab.0.right" timestamp="1614155287496">
+    <state width="1275" height="200" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614215955505" />
+    <state width="1275" height="200" key="GridCell.Tab.0.right" timestamp="1614215955505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614155287496" />
-    <state width="1199" height="330" key="GridCell.Tab.1.bottom" timestamp="1613960788781">
+    <state width="1275" height="200" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614215955505" />
+    <state width="1275" height="332" key="GridCell.Tab.1.bottom" timestamp="1614215853357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1199" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613960788781" />
-    <state width="1199" height="330" key="GridCell.Tab.1.center" timestamp="1613960788781">
+    <state width="1275" height="332" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614215853357" />
+    <state width="1275" height="332" key="GridCell.Tab.1.center" timestamp="1614215853357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1199" height="330" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613960788781" />
-    <state width="1199" height="330" key="GridCell.Tab.1.left" timestamp="1613960788780">
+    <state width="1275" height="332" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614215853357" />
+    <state width="1275" height="332" key="GridCell.Tab.1.left" timestamp="1614215853357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1199" height="330" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613960788780" />
-    <state width="1199" height="330" key="GridCell.Tab.1.right" timestamp="1613960788781">
+    <state width="1275" height="332" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614215853357" />
+    <state width="1275" height="332" key="GridCell.Tab.1.right" timestamp="1614215853357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1199" height="330" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613960788781" />
+    <state width="1275" height="332" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614215853357" />
     <state x="1050" y="225" key="RollbackChangesDialog" timestamp="1611886259807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -625,10 +625,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="182" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611906205024" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1614152544377">
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1614159107554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614152544377" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614159107554" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610937249619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
