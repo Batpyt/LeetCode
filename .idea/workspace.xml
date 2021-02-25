@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="字符串排列">
-      <change afterPath="$PROJECT_DIR$/不知名类型/TransposeMatrix.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="翻转矩阵">
+      <change afterPath="$PROJECT_DIR$/链表/FanzhuanBufenLianbiao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,13 +174,6 @@
       <workItem from="1612231760268" duration="35281000" />
       <workItem from="1613610139933" duration="15710000" />
       <workItem from="1613956223685" duration="13774000" />
-    </task>
-    <task id="LOCAL-00136" summary="二叉搜索树的最小绝对值">
-      <created>1611888646799</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1611888646799</updated>
     </task>
     <task id="LOCAL-00137" summary="每层的最大值">
       <created>1611888704062</created>
@@ -518,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614156760786</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="翻转矩阵">
+      <created>1614218976216</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1614218976217</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +537,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="摆动序列" />
     <MESSAGE value="排序数组的交集" />
     <MESSAGE value="翻转链表" />
     <MESSAGE value="字符串的排列" />
@@ -562,7 +561,8 @@
     <MESSAGE value="走迷宫" />
     <MESSAGE value="字符出现次数打分" />
     <MESSAGE value="字符串排列" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符串排列" />
+    <MESSAGE value="翻转矩阵" />
+    <option name="LAST_COMMIT_MESSAGE" value="翻转矩阵" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -581,26 +581,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607995984371" />
-    <state width="220" height="343" key="Git.Branch.Popup" timestamp="1614159106173">
+    <state width="222" height="345" key="Git.Branch.Popup" timestamp="1614220348121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="220" height="343" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614159106173" />
-    <state width="1275" height="200" key="GridCell.Tab.0.bottom" timestamp="1614215955505">
+    <state width="222" height="345" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614220348121" />
+    <state width="1275" height="200" key="GridCell.Tab.0.bottom" timestamp="1614220833281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614215955505" />
-    <state width="1275" height="200" key="GridCell.Tab.0.center" timestamp="1614215955505">
+    <state width="1275" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614220833281" />
+    <state width="1275" height="200" key="GridCell.Tab.0.center" timestamp="1614220833281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="200" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614215955505" />
-    <state width="1275" height="200" key="GridCell.Tab.0.left" timestamp="1614215955505">
+    <state width="1275" height="200" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614220833281" />
+    <state width="1275" height="200" key="GridCell.Tab.0.left" timestamp="1614220833280">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="200" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614215955505" />
-    <state width="1275" height="200" key="GridCell.Tab.0.right" timestamp="1614215955505">
+    <state width="1275" height="200" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614220833280" />
+    <state width="1275" height="200" key="GridCell.Tab.0.right" timestamp="1614220833281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="200" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614215955505" />
+    <state width="1275" height="200" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614220833281" />
     <state width="1275" height="332" key="GridCell.Tab.1.bottom" timestamp="1614215853357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
