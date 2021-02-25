@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="翻转矩阵">
-      <change afterPath="$PROJECT_DIR$/链表/FanzhuanBufenLianbiao.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="反转部分链表">
+      <change afterPath="$PROJECT_DIR$/动态规划/BianJiJuLi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,13 +174,6 @@
       <workItem from="1612231760268" duration="35281000" />
       <workItem from="1613610139933" duration="15710000" />
       <workItem from="1613956223685" duration="13774000" />
-    </task>
-    <task id="LOCAL-00137" summary="每层的最大值">
-      <created>1611888704062</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1611888704062</updated>
     </task>
     <task id="LOCAL-00138" summary="二叉树直径">
       <created>1611901097522</created>
@@ -518,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614218976217</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="反转部分链表">
+      <created>1614222738712</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1614222738712</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +537,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="排序数组的交集" />
     <MESSAGE value="翻转链表" />
     <MESSAGE value="字符串的排列" />
     <MESSAGE value="K 个不同整数的子数组" />
@@ -562,7 +561,8 @@
     <MESSAGE value="字符出现次数打分" />
     <MESSAGE value="字符串排列" />
     <MESSAGE value="翻转矩阵" />
-    <option name="LAST_COMMIT_MESSAGE" value="翻转矩阵" />
+    <MESSAGE value="反转部分链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="反转部分链表" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
