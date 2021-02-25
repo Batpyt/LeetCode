@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="反转部分链表">
-      <change afterPath="$PROJECT_DIR$/动态规划/BianJiJuLi.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="编辑距离">
+      <change afterPath="$PROJECT_DIR$/牛客机试/YunSuan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/BianJiJuLi.java" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/BianJiJuLi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +71,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager" selected="Application.TransposeMatrix">
-    <configuration name="AngryBookStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="双指针和滑动窗口.AngryBookStore" />
+  <component name="RunManager" selected="Application.BianJiJuLi">
+    <configuration name="BianJiJuLi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="动态规划.BianJiJuLi" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="双指针和滑动窗口.*" />
+          <option name="PATTERN" value="动态规划.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BianJiJuLi" />
         <item itemvalue="Application.TransposeMatrix" />
         <item itemvalue="Application.Strings" />
         <item itemvalue="Application.PrettyWord" />
         <item itemvalue="Application.RabbitBorn" />
-        <item itemvalue="Application.AngryBookStore" />
       </list>
     </recent_temporary>
   </component>
@@ -174,13 +175,6 @@
       <workItem from="1612231760268" duration="35281000" />
       <workItem from="1613610139933" duration="15710000" />
       <workItem from="1613956223685" duration="13774000" />
-    </task>
-    <task id="LOCAL-00138" summary="二叉树直径">
-      <created>1611901097522</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1611901097522</updated>
     </task>
     <task id="LOCAL-00139" summary="另一个树的子树">
       <created>1611905986807</created>
@@ -518,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614222738712</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="编辑距离">
+      <created>1614239158410</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1614239158412</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +538,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="翻转链表" />
     <MESSAGE value="字符串的排列" />
     <MESSAGE value="K 个不同整数的子数组" />
     <MESSAGE value="最大连续1的个数" />
@@ -562,7 +562,8 @@
     <MESSAGE value="字符串排列" />
     <MESSAGE value="翻转矩阵" />
     <MESSAGE value="反转部分链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="反转部分链表" />
+    <MESSAGE value="编辑距离" />
+    <option name="LAST_COMMIT_MESSAGE" value="编辑距离" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -585,22 +586,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="222" height="345" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614220348121" />
-    <state width="1275" height="200" key="GridCell.Tab.0.bottom" timestamp="1614220833281">
+    <state width="1275" height="102" key="GridCell.Tab.0.bottom" timestamp="1614242100940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614220833281" />
-    <state width="1275" height="200" key="GridCell.Tab.0.center" timestamp="1614220833281">
+    <state width="1275" height="102" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614242100940" />
+    <state width="1275" height="102" key="GridCell.Tab.0.center" timestamp="1614242100940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="200" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614220833281" />
-    <state width="1275" height="200" key="GridCell.Tab.0.left" timestamp="1614220833280">
+    <state width="1275" height="102" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614242100940" />
+    <state width="1275" height="102" key="GridCell.Tab.0.left" timestamp="1614242100940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="200" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614220833280" />
-    <state width="1275" height="200" key="GridCell.Tab.0.right" timestamp="1614220833281">
+    <state width="1275" height="102" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614242100940" />
+    <state width="1275" height="102" key="GridCell.Tab.0.right" timestamp="1614242100940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="200" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614220833281" />
+    <state width="1275" height="102" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614242100940" />
     <state width="1275" height="332" key="GridCell.Tab.1.bottom" timestamp="1614215853357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

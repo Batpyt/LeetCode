@@ -36,7 +36,8 @@ package 动态规划;
 
 public class BianJiJuLi {
 	public static void main(String[] args) {
-
+		System.out.println(minDistance("horse", "ros"));
+		System.out.println(BianJi("horse", "ros"));
 	}
 
 	public static int minDistance(String word1, String word2) {
@@ -72,6 +73,28 @@ public class BianJiJuLi {
 			}
 		}
 		return D[n][m];
+	}
+
+	public static int BianJi(String word1, String word2) {
+		char[] a = word1.toCharArray();
+		char[] b = word2.toCharArray();
+		int[][] len = new int[a.length + 1][b.length + 1];
+		for (int i = 0; i < a.length + 1; i++) {
+			len[i][0] = i;
+		}
+		for (int j = 0; j <b.length + 1; j++) {
+			len[0][j] = j;
+		}
+		for (int i = 1; i < a.length + 1; i++) {
+			for (int j = 1; j < b.length + 1; j++) {
+				if (a[i - 1] == b[j - 1]) {
+					len[i][j] = len[i - 1][j - 1];
+				} else {
+					len[i][j] = Math.min(Math.min(len[i - 1][j], len[i - 1][j - 1]), len[i][j - 1]) + 1;
+				}
+			}
+		}
+		return len[a.length][b.length];
 	}
 
 }
