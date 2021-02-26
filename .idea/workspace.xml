@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="四则运算">
-      <change afterPath="$PROJECT_DIR$/牛客机试/FindSeven.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="找7">
+      <change afterPath="$PROJECT_DIR$/DFSs/ZifuChuanPai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/动态规划/BianJiJuLi.java" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/BianJiJuLi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,20 +174,6 @@
       <workItem from="1612231760268" duration="35281000" />
       <workItem from="1613610139933" duration="15710000" />
       <workItem from="1613956223685" duration="13774000" />
-    </task>
-    <task id="LOCAL-00141" summary="二叉树增加一行">
-      <created>1611909478446</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1611909478446</updated>
-    </task>
-    <task id="LOCAL-00142" summary="合并两个二叉树">
-      <created>1611909492359</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1611909492360</updated>
     </task>
     <task id="LOCAL-00143" summary="公平糖果交换">
       <created>1612143442640</created>
@@ -519,7 +504,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614242290807</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="编辑距离">
+      <created>1614324898226</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1614324898226</updated>
+    </task>
+    <task id="LOCAL-00191" summary="找7">
+      <created>1614324907592</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1614324907593</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +537,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="K 个不同整数的子数组" />
     <MESSAGE value="最大连续1的个数" />
     <MESSAGE value="最小栈" />
     <MESSAGE value="栈的压入弹出" />
@@ -561,9 +559,10 @@
     <MESSAGE value="字符串排列" />
     <MESSAGE value="翻转矩阵" />
     <MESSAGE value="反转部分链表" />
-    <MESSAGE value="编辑距离" />
     <MESSAGE value="四则运算" />
-    <option name="LAST_COMMIT_MESSAGE" value="四则运算" />
+    <MESSAGE value="编辑距离" />
+    <MESSAGE value="找7" />
+    <option name="LAST_COMMIT_MESSAGE" value="找7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -586,22 +585,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="224" height="347" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614242295603" />
-    <state width="1275" height="130" key="GridCell.Tab.0.bottom" timestamp="1614308544263">
+    <state width="1275" height="130" key="GridCell.Tab.0.bottom" timestamp="1614324872910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="130" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614308544263" />
-    <state width="1275" height="130" key="GridCell.Tab.0.center" timestamp="1614308544263">
+    <state width="1275" height="130" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614324872910" />
+    <state width="1275" height="130" key="GridCell.Tab.0.center" timestamp="1614324872910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="130" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614308544263" />
-    <state width="1275" height="130" key="GridCell.Tab.0.left" timestamp="1614308544263">
+    <state width="1275" height="130" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614324872910" />
+    <state width="1275" height="130" key="GridCell.Tab.0.left" timestamp="1614324872910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="130" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614308544263" />
-    <state width="1275" height="130" key="GridCell.Tab.0.right" timestamp="1614308544263">
+    <state width="1275" height="130" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614324872910" />
+    <state width="1275" height="130" key="GridCell.Tab.0.right" timestamp="1614324872910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="130" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614308544263" />
+    <state width="1275" height="130" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614324872910" />
     <state width="1275" height="332" key="GridCell.Tab.1.bottom" timestamp="1614215853357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -650,10 +649,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="910" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609723659045" />
-    <state x="889" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1611284686336">
+    <state x="889" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1614325133803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="889" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611284686336" />
+    <state x="889" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614325133803" />
     <state x="948" y="437" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1608877414402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
