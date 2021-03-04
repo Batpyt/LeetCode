@@ -26,7 +26,7 @@ import java.util.PriorityQueue;
 
 public class KMostFrequent {
     public static void main(String[] args) {
-        int[] nums = {1,2};
+        int[] nums = {1,1,1,2,2,3,3,3,3,4,4,4,4,4,4,5};
         int[] res = topKFrequent(nums, 2);
         for(int i : res) {
             System.out.println(i);
@@ -43,11 +43,8 @@ public class KMostFrequent {
                 map.put(num, 1);
             }
         }
-        HashMap<Integer, Integer> newmap = new HashMap<>();
-        for(int key : map.keySet()) {
-            //System.out.println(map.get(key)+" "+key);
-            newmap.put(map.get(key), key);
-        }
+
+        //重写优先队列的排序，按照元素的出现次数升序排列
         PriorityQueue<Integer> pq =
                 new PriorityQueue<>(new Comparator<Integer>() {
                     @Override
@@ -56,15 +53,21 @@ public class KMostFrequent {
                     }
                 });
 
+        //向队列中插入数据
         for(int key : map.keySet()) {
+            //若没达到k个，直接加入数据
             if(pq.size() < k) {
                 pq.add(key);
             }
 
+            //若已满k个，若当前元素出现次数大于队列首个元素出现次数，移除首个，插入新的
             else if(map.get(key) > map.get(pq.peek())) {
+                System.out.println(pq.peek());
                 pq.remove();
                 pq.add(key);
             }
+
+            System.out.println(pq);
         }
         int[] res = new int[k];
         int index = 0;
