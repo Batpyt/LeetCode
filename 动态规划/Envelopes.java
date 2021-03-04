@@ -29,6 +29,7 @@ public class Envelopes {
     public static void main(String[] args) {
         int[][] en = {{5,4},{6,4},{6,7},{2,3}};
         System.out.println(maxEnvelopes(en));
+        System.out.println(Envelopes(en));
     }
 
     public static int maxEnvelopes(int[][] envelopes) {
@@ -67,4 +68,35 @@ public class Envelopes {
         return res;
     }
 
+    public static int Envelopes(int[][] envelopes) {
+        Arrays.sort(envelopes, new Comparator<int[]>() {
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                return o1[0] == o2[0] ? o2[1] - o1[1] : o1[0] - o2[0];
+            }
+
+        });
+
+        int[] nums = new int[envelopes.length];
+        for(int i = 0; i < envelopes.length; i++) {
+            nums[i] = envelopes[i][1];
+        }
+        int res = Lis(nums);
+        return res;
+    }
+
+    public static int Lis(int[] nums) {
+        int max = Integer.MIN_VALUE;
+        int[] dp = new int[nums.length];
+        for(int i = 0; i < nums.length; i++) {
+            dp[i] = 1;
+            for(int j = 0; j < i; j++) {
+                if(nums[j] < nums[i]) {
+                    dp[i] = Math.max(dp[i], dp[j] + 1);
+                }
+                max = Math.max(max, dp[i]);
+            }
+        }
+        return max;
+    }
 }
