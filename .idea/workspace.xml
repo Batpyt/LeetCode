@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="完全数">
-      <change afterPath="$PROJECT_DIR$/排序/TopKFrequentElements.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="前k个高频元素">
+      <change afterPath="$PROJECT_DIR$/不知名类型/CountBits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/Envelopes.java" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/Envelopes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +71,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager" selected="Application.TopKFrequentElements">
-    <configuration name="AddTwoString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="牛客机试.AddTwoString" />
+  <component name="RunManager" selected="Application.Envelopes">
+    <configuration name="CountBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="不知名类型.CountBits" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="牛客机试.*" />
+          <option name="PATTERN" value="不知名类型.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BianJiJuLi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="动态规划.BianJiJuLi" />
+    <configuration name="Envelopes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="动态规划.Envelopes" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Envelopes" />
+        <item itemvalue="Application.CountBits" />
         <item itemvalue="Application.TopKFrequentElements" />
         <item itemvalue="Application.LIS (1)" />
         <item itemvalue="Application.LIS" />
-        <item itemvalue="Application.AddTwoString" />
-        <item itemvalue="Application.BianJiJuLi" />
       </list>
     </recent_temporary>
   </component>
@@ -174,13 +175,6 @@
       <workItem from="1612231760268" duration="35281000" />
       <workItem from="1613610139933" duration="15710000" />
       <workItem from="1613956223685" duration="13774000" />
-    </task>
-    <task id="LOCAL-00147" summary="二维数组中的查找">
-      <created>1612259356808</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1612259356808</updated>
     </task>
     <task id="LOCAL-00148" summary="滑动窗口中位数">
       <created>1612317033650</created>
@@ -518,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614650494911</updated>
     </task>
-    <option name="localTasksCounter" value="196" />
+    <task id="LOCAL-00196" summary="前k个高频元素">
+      <created>1614666528703</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1614666528705</updated>
+    </task>
+    <option name="localTasksCounter" value="197" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +538,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="栈的压入弹出" />
     <MESSAGE value="数组的度" />
     <MESSAGE value="最大路径和" />
     <MESSAGE value="快排" />
@@ -562,7 +562,8 @@
     <MESSAGE value="最长递增子序列" />
     <MESSAGE value="大数相加" />
     <MESSAGE value="完全数" />
-    <option name="LAST_COMMIT_MESSAGE" value="完全数" />
+    <MESSAGE value="前k个高频元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="前k个高频元素" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -585,22 +586,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="230" height="353" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614650539996" />
-    <state width="1275" height="158" key="GridCell.Tab.0.bottom" timestamp="1614666479361">
+    <state width="1288" height="158" key="GridCell.Tab.0.bottom" timestamp="1614821388028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="158" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614666479361" />
-    <state width="1275" height="158" key="GridCell.Tab.0.center" timestamp="1614666479360">
+    <state width="1288" height="158" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614821388028" />
+    <state width="1288" height="158" key="GridCell.Tab.0.center" timestamp="1614821388027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="158" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614666479360" />
-    <state width="1275" height="158" key="GridCell.Tab.0.left" timestamp="1614666479360">
+    <state width="1288" height="158" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614821388027" />
+    <state width="1288" height="158" key="GridCell.Tab.0.left" timestamp="1614821388027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="158" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614666479360" />
-    <state width="1275" height="158" key="GridCell.Tab.0.right" timestamp="1614666479361">
+    <state width="1288" height="158" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614821388027" />
+    <state width="1288" height="158" key="GridCell.Tab.0.right" timestamp="1614821388027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="158" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614666479361" />
+    <state width="1288" height="158" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614821388027" />
     <state width="1275" height="332" key="GridCell.Tab.1.bottom" timestamp="1614215853357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -625,10 +626,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="182" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611906205024" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1614650541453">
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1614666531889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614650541453" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614666531889" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610937249619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -641,10 +642,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="449" y="179" width="1072" height="840" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1609926876561" />
-    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1614154546162">
+    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1614819844985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614154546162" />
+    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614819844985" />
     <state x="910" y="244" key="run.anything.popup" timestamp="1609723659045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
