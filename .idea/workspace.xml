@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="前k个高频元素">
-      <change afterPath="$PROJECT_DIR$/不知名类型/CountBits.java" afterDir="false" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="信封问题">
+      <change afterPath="$PROJECT_DIR$/栈/ImplementQueueUsingStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/动态规划/Envelopes.java" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/Envelopes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,20 +174,6 @@
       <workItem from="1612231760268" duration="35281000" />
       <workItem from="1613610139933" duration="15710000" />
       <workItem from="1613956223685" duration="13774000" />
-    </task>
-    <task id="LOCAL-00148" summary="滑动窗口中位数">
-      <created>1612317033650</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1612317033650</updated>
-    </task>
-    <task id="LOCAL-00149" summary="子数组最大平均数">
-      <created>1612401460915</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1612401460915</updated>
     </task>
     <task id="LOCAL-00150" summary="矩阵中的路径">
       <created>1612432826670</created>
@@ -519,7 +504,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614666528705</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="统计二进制中1的个数">
+      <created>1614821666793</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1614821666837</updated>
+    </task>
+    <task id="LOCAL-00198" summary="信封问题">
+      <created>1614821681921</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1614821681923</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,8 +537,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数组的度" />
-    <MESSAGE value="最大路径和" />
     <MESSAGE value="快排" />
     <MESSAGE value="句子反转" />
     <MESSAGE value="坐标移动" />
@@ -563,7 +560,9 @@
     <MESSAGE value="大数相加" />
     <MESSAGE value="完全数" />
     <MESSAGE value="前k个高频元素" />
-    <option name="LAST_COMMIT_MESSAGE" value="前k个高频元素" />
+    <MESSAGE value="统计二进制中1的个数" />
+    <MESSAGE value="信封问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="信封问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -586,22 +585,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="230" height="353" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614650539996" />
-    <state width="1288" height="158" key="GridCell.Tab.0.bottom" timestamp="1614821388028">
+    <state width="1288" height="158" key="GridCell.Tab.0.bottom" timestamp="1614821408644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1288" height="158" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614821388028" />
-    <state width="1288" height="158" key="GridCell.Tab.0.center" timestamp="1614821388027">
+    <state width="1288" height="158" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614821408644" />
+    <state width="1288" height="158" key="GridCell.Tab.0.center" timestamp="1614821408644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1288" height="158" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614821388027" />
-    <state width="1288" height="158" key="GridCell.Tab.0.left" timestamp="1614821388027">
+    <state width="1288" height="158" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614821408644" />
+    <state width="1288" height="158" key="GridCell.Tab.0.left" timestamp="1614821408644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1288" height="158" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614821388027" />
-    <state width="1288" height="158" key="GridCell.Tab.0.right" timestamp="1614821388027">
+    <state width="1288" height="158" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614821408644" />
+    <state width="1288" height="158" key="GridCell.Tab.0.right" timestamp="1614821408644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1288" height="158" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614821388027" />
+    <state width="1288" height="158" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614821408644" />
     <state width="1275" height="332" key="GridCell.Tab.1.bottom" timestamp="1614215853357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
