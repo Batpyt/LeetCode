@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="完全数" />
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="用栈实现队列">
+      <change afterPath="$PROJECT_DIR$/DFSs/CutHuiWen2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/栈/CalculatorWithNoKuoHao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,13 +71,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager" selected="Application.TopKFrequentElements">
-    <configuration name="AddTwoString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="牛客机试.AddTwoString" />
+  <component name="RunManager" selected="Application.CalculatorWithNoKuoHao">
+    <configuration name="CalculatorWithNoKuoHao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="栈.CalculatorWithNoKuoHao" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="牛客机试.*" />
+          <option name="PATTERN" value="栈.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BianJiJuLi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="动态规划.BianJiJuLi" />
+    <configuration name="CutHuiWen2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFSs.CutHuiWen2" />
       <module name="Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="动态规划.*" />
+          <option name="PATTERN" value="DFSs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,15 +139,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatorWithNoKuoHao" />
+        <item itemvalue="Application.CutHuiWen2" />
         <item itemvalue="Application.TopKFrequentElements" />
         <item itemvalue="Application.LIS (1)" />
         <item itemvalue="Application.LIS" />
-        <item itemvalue="Application.AddTwoString" />
-        <item itemvalue="Application.BianJiJuLi" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -582,22 +586,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="230" height="353" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614650539996" />
-    <state width="1275" height="158" key="GridCell.Tab.0.bottom" timestamp="1614666479361">
+    <state width="1288" height="158" key="GridCell.Tab.0.bottom" timestamp="1615427602475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="158" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614666479361" />
-    <state width="1275" height="158" key="GridCell.Tab.0.center" timestamp="1614666479360">
+    <state width="1288" height="158" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615427602475" />
+    <state width="1288" height="158" key="GridCell.Tab.0.center" timestamp="1615427602475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="158" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614666479360" />
-    <state width="1275" height="158" key="GridCell.Tab.0.left" timestamp="1614666479360">
+    <state width="1288" height="158" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615427602475" />
+    <state width="1288" height="158" key="GridCell.Tab.0.left" timestamp="1615427602475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="158" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614666479360" />
-    <state width="1275" height="158" key="GridCell.Tab.0.right" timestamp="1614666479361">
+    <state width="1288" height="158" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615427602475" />
+    <state width="1288" height="158" key="GridCell.Tab.0.right" timestamp="1615427602475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1275" height="158" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614666479361" />
+    <state width="1288" height="158" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615427602475" />
     <state width="1275" height="332" key="GridCell.Tab.1.bottom" timestamp="1614215853357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -638,10 +642,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="449" y="179" width="1072" height="840" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1609926876561" />
-    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1614154546162">
+    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1615252642527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614154546162" />
+    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615252642527" />
     <state x="910" y="244" key="run.anything.popup" timestamp="1609723659045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
