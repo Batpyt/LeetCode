@@ -1,5 +1,7 @@
 package 动态规划;
 
+import java.util.*;
+
 /*
  * 输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字。
 
@@ -16,15 +18,18 @@ public class Huixingdayin {
 		int[][] num = {{1,2,3}, {4,5,6}, {7,8,9}};
 		
 		
-		int[] res = spiralOrder(num);
-		for(int i = 0; i < res.length; i++) {
-			System.out.println(res[i]);
-		}
+//		int[] res = spiralOrder(num);
+//		for(int i = 0; i < res.length; i++) {
+//			System.out.println(res[i]);
+//		}
 
 		int[] r = rotatePrint(num);
 		for(int i : r) {
 			System.out.print(i +" ");
 		}
+
+		List<Integer> list = spiralOrder2(num);
+		System.out.println(list);
 		
 	}
 	/*
@@ -128,5 +133,41 @@ public class Huixingdayin {
     	
     	return res;
     }
+
+	public static List<Integer> spiralOrder2(int[][] matrix) {
+		List<Integer> list = new ArrayList<>();
+		int top = 0, bottom = matrix.length - 1, left = 0, right = matrix[0].length - 1;
+		int count = 0, size = matrix.length * matrix[0].length;
+		while(true) {
+			for(int i = left; i <= right; i++) {
+				list.add(matrix[top][i]);
+				count++;
+			}
+			if(count >= size) break;
+			top++;
+
+			for(int i = top; i <= bottom; i++) {
+				list.add(matrix[i][right]);
+				count++;
+			}
+			if(count >= size) break;
+			right--;
+
+			for(int i = right; i >= left; i--) {
+				list.add(matrix[bottom][i]);
+				count++;
+			}
+			if(count >= size) break;
+			bottom--;
+
+			for(int i = bottom; i >= top; i--) {
+				list.add(matrix[i][left]);
+				count++;
+			}
+			if(count >= size) break;
+			left++;
+		}
+		return list;
+	}
 
 }
