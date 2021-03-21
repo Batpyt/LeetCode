@@ -24,7 +24,13 @@ public class Juzhenliwu {
         int[][] grid = {{1,3,1},{1,5,1},{4,2,1}};
 
         System.out.println(maxValue(grid));
+        System.out.println(maxValue2(grid));
     }
+    /*
+    [1,3,1],
+    [1,5,1],
+    [4,2,1]
+     */
     public static int maxValue(int[][] grid) {
         int[][] dp = new int[grid.length][grid[0].length];
         dp[0][0] = grid[0][0];
@@ -51,5 +57,15 @@ public class Juzhenliwu {
         }
         return dp[dp.length - 1][dp[0].length - 1];
 
+    }
+
+    public static int maxValue2(int[][] grid) {
+        int[] dp = new int[grid[0].length + 1];
+        for(int i = 1; i <= grid.length; i++) {
+            for(int j = 1; j <= grid[0].length; j++) {
+                dp[j] = Math.max(dp[j], dp[j - 1]) + grid[i - 1][j - 1];
+            }
+        }
+        return dp[dp.length - 1];
     }
 }
