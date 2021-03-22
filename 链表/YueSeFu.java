@@ -1,5 +1,9 @@
 package 链表;
 
+/**
+ * 约瑟夫环
+ */
+
 public class YueSeFu {
     public static void count(int n){
         //数到3出局，中间间隔两个人
