@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="矩阵礼物">
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="约瑟夫环">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/链表/YueSeFu.java" beforeDir="false" afterPath="$PROJECT_DIR$/链表/YueSeFu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/栈/Find123.java" beforeDir="false" afterPath="$PROJECT_DIR$/栈/Find123.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,14 +175,7 @@
       <workItem from="1613610139933" duration="15710000" />
       <workItem from="1613956223685" duration="13774000" />
       <workItem from="1615770560758" duration="5539000" />
-      <workItem from="1615944836569" duration="8728000" />
-    </task>
-    <task id="LOCAL-00152" summary="非递减数组">
-      <created>1612687547430</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1612687547430</updated>
+      <workItem from="1615944836569" duration="14252000" />
     </task>
     <task id="LOCAL-00153" summary="走格子">
       <created>1612687594477</created>
@@ -520,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616117599722</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="约瑟夫环">
+      <created>1616402593622</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1616402593623</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +551,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="坐标移动" />
     <MESSAGE value="破解密码-九宫格" />
     <MESSAGE value="检验密码是否标准" />
     <MESSAGE value="删除最少出现字符" />
@@ -576,7 +575,8 @@
     <MESSAGE value="环形打印" />
     <MESSAGE value="停车系统" />
     <MESSAGE value="矩阵礼物" />
-    <option name="LAST_COMMIT_MESSAGE" value="矩阵礼物" />
+    <MESSAGE value="约瑟夫环" />
+    <option name="LAST_COMMIT_MESSAGE" value="约瑟夫环" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -639,10 +639,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="182" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611906205024" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1616146148916">
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1616402595226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616146148916" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616402595226" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610937249619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -655,10 +655,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="449" y="179" width="1072" height="840" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1609926876561" />
-    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1616035808213">
+    <state x="947" y="270" width="592" height="602" key="find.popup" timestamp="1616549322305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616035808213" />
+    <state x="947" y="270" width="592" height="602" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616549322305" />
     <state x="910" y="244" key="run.anything.popup" timestamp="1609723659045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
