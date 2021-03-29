@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="删除排序链表中的重复元素 II">
+    <list default="true" id="1644de8a-169b-411d-a867-a7aa7e3e88e7" name="Default Changelist" comment="删除排序链表中的重复元素">
+      <change afterPath="$PROJECT_DIR$/不知名类型/ReverseBits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/链表/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/链表/RemoveDuplicates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -175,14 +188,9 @@
       <workItem from="1613610139933" duration="15710000" />
       <workItem from="1613956223685" duration="13774000" />
       <workItem from="1615770560758" duration="5539000" />
-      <workItem from="1615944836569" duration="15977000" />
-    </task>
-    <task id="LOCAL-00155" summary="最长湍流子数组">
-      <created>1612747958870</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1612747958870</updated>
+      <workItem from="1615944836569" duration="16921000" />
+      <workItem from="1616663812063" duration="568000" />
+      <workItem from="1616738726918" duration="1302000" />
     </task>
     <task id="LOCAL-00156" summary="删除节点">
       <created>1612747981068</created>
@@ -520,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616637503131</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="删除排序链表中的重复元素">
+      <created>1616638037213</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1616638037213</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +566,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="删除最少出现字符" />
     <MESSAGE value="生气的书店老板" />
     <MESSAGE value="蛇形打印" />
     <MESSAGE value="兔子繁殖" />
@@ -576,7 +590,8 @@
     <MESSAGE value="约瑟夫环" />
     <MESSAGE value="132形式" />
     <MESSAGE value="删除排序链表中的重复元素 II" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除排序链表中的重复元素 II" />
+    <MESSAGE value="删除排序链表中的重复元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除排序链表中的重复元素" />
   </component>
   <component name="WindowStateProjectService">
     <state x="827" y="54" key="#Java" timestamp="1610007853919">
@@ -595,10 +610,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="85" width="1536" height="861" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616402532836" />
-    <state width="248" height="371" key="Git.Branch.Popup" timestamp="1616146147012">
+    <state width="258" height="381" key="Git.Branch.Popup" timestamp="1616638193638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="248" height="371" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616146147012" />
+    <state width="258" height="381" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616638193638" />
     <state width="1288" height="172" key="GridCell.Tab.0.bottom" timestamp="1616402481356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -639,18 +654,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="182" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611906205024" />
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1616637505024">
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2" timestamp="1616638198153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616637505024" />
+    <state x="809" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616638198153" />
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610937249619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1006" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610937249619" />
-    <state x="780" y="96" width="1039" height="840" key="dock-window-1" timestamp="1612833941518">
+    <state x="780" y="96" width="1039" height="840" key="dock-window-1" timestamp="1617008047339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="780" y="96" width="1039" height="840" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1612833941518" />
+    <state x="780" y="96" width="1039" height="840" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1617008047339" />
     <state x="449" y="179" width="1072" height="840" key="dock-window-2" timestamp="1609926876561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
