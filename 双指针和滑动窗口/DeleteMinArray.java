@@ -38,15 +38,22 @@ public class DeleteMinArray {
         System.out.println(findLengthOfShortestSubarray(n2));
     }
 
+    /*
+    非递增版本
+    中心思想：找出三种类型的非递增序列：前面的数组，后面的数组，前面加后面两段数组合并。
+    剩下的数组即为要删除的数组
+     */
     public static int findLengthOfShortestSubarray (int[] array) {
         if(array.length <= 1) {
             return 0;
         }
         int left = 0, right = array.length - 1;
+        //第一种情况：[0, left]为非递增
         while(left + 1 < array.length && array[left] >= array[left + 1]) {
             left++;
         }
 
+        //第二种：[right, length]
         while(right - 1 >= 0 && array[right - 1] >= array[right]) {
             right--;
         }
@@ -56,16 +63,49 @@ public class DeleteMinArray {
             return 0;
         }
 
+        //第三种
         //[0, left] [..., ...] [right, length]
         //0 - left, right - length 是非递增区间, try to 合并，中间的即为需要删除的
         //最终目标：
         //[0, leftindex][rightinex, length]，中间删除
+        /*
+        由于left前面的，以及right后面的已经为非递增，只需从0和right开始往后双指针找区间
+         */
         int leftindex = 0, rightindex = right;
         while(leftindex <= left && rightindex < array.length) {
             if(array[leftindex] >= array[rightindex]) {
                 res = Math.min(res, rightindex - leftindex - 1);
                 leftindex++;
             } else {
+                rightindex++;
+            }
+        }
+        return res;
+    }
+
+    /*
+    非递减版本
+     */
+    public static int findLengthOfShortestSubarray2(int[] arr) {
+        if(arr.length <= 1) return 0;
+        int left = 0, right = arr.length - 1;
+        while(left + 1 < arr.length && arr[left] <= arr[left+1]) {
+            left++;
+        }
+
+        while (right - 1 >= 0 && arr[right - 1] <= arr[right]) {
+            right--;
+        }
+        int res = Math.min(right, arr.length - left -1);
+        if(res == 0) return 0;
+
+        int leftindex = 0, rightindex = right;
+        while(leftindex <= left && rightindex < arr.length) {
+            if(arr[leftindex] <= arr[rightindex]) {
+                res = Math.min(res, rightindex - leftindex - 1);
+                leftindex++;
+            }
+            else {
                 rightindex++;
             }
         }
