@@ -1,5 +1,7 @@
 package 链表;
 
+import java.util.List;
+
 /*
  * 输入两个递增排序的链表，合并这两个链表并使新链表中的节点仍然是递增排序的。
 
@@ -37,8 +39,8 @@ public class Hebingpaixushuzu {
     }
 
 	public ListNode mergeTwoLists1(ListNode l1, ListNode l2) {
-		ListNode res = new ListNode(0);
-		ListNode cur = res;
+		ListNode dum = new ListNode(0);
+		ListNode cur = dum.next;
 
 		while(l1 != null && l2 != null) {
 			if(l1.val < l2.val) {
@@ -52,14 +54,13 @@ public class Hebingpaixushuzu {
 				l2 = l2.next;
 			}
 		}
-
 		if(l1 != null) {
 			cur.next = l1;
 		}
-		else {
+		if(l2 != null) {
 			cur.next = l2;
 		}
-		return res.next;
+		return dum.next;
 	}
 
 }

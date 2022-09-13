@@ -43,7 +43,7 @@ public class PathInMatrix {
 	}
 
 	/**
-	 * 回溯法
+	 * hui回溯法
 	 * @param board 矩阵
 	 * @param c 字符串
 	 * @param i 纵坐标
